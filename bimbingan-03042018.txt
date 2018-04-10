@@ -1,0 +1,6 @@
+penyusunan model klasifikasi
+menjelaskan alur svm secara umum
+pengujian
+tujuan pengujian : membuktikan bahwa metode membuat metode deteksi yang akurat
+alat ukur pengujian : akurasi presisi recall
+skenario : skenario umum pengujian yang dilakukan
