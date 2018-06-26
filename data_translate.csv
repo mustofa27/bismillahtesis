@@ -1,0 +1,27 @@
+dok_1,view information of requested tutorial,0
+dok_1,view information of accepted tutorial,0
+dok_1,make a request of tutorial,0
+dok_1,make addition to participant of a tutorial,0
+dok_1,respond requested tutorial,0
+dok_1,cancel responded tutorial,0
+dok_2,show information of lecturer's presence,0
+dok_2,search for lecturer,0
+dok_2,register new account,1
+dok_2,show and edit lecturer's biodata,0
+dok_2,edit student's biodata,1
+dok_3,register new lecturer's account,0
+dok_3,delete lecturer's account,0
+dok_3,update lecturer's account information,0
+dok_3,add lecturer's availability status,0
+dok_3,update lecturer's availability status,0
+dok_3,delete lecturer's availability status,0
+dok_3,show lecturer's information and availability status,0
+dok_3,search for lecturer's account,0
+dok_3,lecturer can approve student's plan,1
+dok_4,register new user account,0
+dok_4,edit user profile,0
+dok_4,report find lost items,0
+dok_4,report loss of item,0
+dok_4,asking help in term of question,1
+dok_4,delete user account,0
+dok_4,give an award,1

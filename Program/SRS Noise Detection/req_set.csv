@@ -1,0 +1,32 @@
+Nama File	Requirement Statement	Noise?
+1_libra_srs-uji1	submit jobs with the associated deadline, cost, and execution time	0
+1_libra_srs-uji1	query the cluster to establish the current cost per unit time for submitting new jobs	0
+1_libra_srs-uji1	monitor the status of submitted jobs	0
+1_libra_srs-uji1	cancel jobs submitted by him	0
+1_libra_srs-uji1	check his credit balance	1
+1_libra_srs-uji1	check his usage history	0
+1_libra_srs-uji1	check the status of each node of the cluster	0
+1_libra_srs-uji1	check the usage pattern history of the cluster	0
+1_libra_srs-uji1	check the status of all submitted jobs	0
+1_libra_srs-uji1	check the load on each node of the cluster	0
+1_libra_srs-uji1	alter the cost structure of the cluster	0
+1_libra_srs-uji1	alter the scheduling policy of the cluster	0
+1_libra_srs-uji1	cancel, suspend, and resume any job	0
+2_SRS_sample V1.2	The system administrator must be able to deactivate and reactivate student account login	0
+2_SRS_sample V1.2	The system administrator must be able to force the sending of a new password to a student via email	0
+2_SRS_sample V1.2	The system administrator must be able to change any of a student's details	0
+2_SRS_sample V1.2	Student can be register on the system and fill in all detail and forward to choose project/supervisor	0
+2_SRS_sample V1.2	Student can change detail if information is incorrect such as telephone number	0
+2_SRS_sample V1.2	Student can change his login password at any time for security reason	0
+2_SRS_sample V1.2	Student can request his password if he/she forgotten the password	0
+2_SRS_sample V1.2	All staff can view the details of any student	0
+2_SRS_sample V1.2	Certain staff may be designated as Unit or Cohort Co-ordinators and can change the details of any student doing their unit or project cohort	0
+2_SRS_sample V1.2	Unit Cohort co-ordinator can change student detail for incorrect information	0
+2_SRS_sample V1.2	Unit Cohort co-ordinator can view student information and monitor their progress	0
+2_SRS_sample V1.2	Unit Cohort co-ordinator can list all students in different period of different group	0
+2_SRS_sample V1.2	Unit Cohort co-ordinator can reset the student’s password if required	0
+2_SRS_sample V1.2	System Administrator can list all students in different period of different group to check any error	0
+2_SRS_sample V1.2	System Administrator can reset the student’s password if required	0
+2_SRS_sample V1.2	Administration Staff can list all students in different period of different group	0
+2_SRS_sample V1.2	Administration Staff can make a school announcement	1
+

@@ -1,0 +1,3 @@
+introduction = object penelitian, mengapa penting, apa yang dilakukan orang, apa yang diusulkan.
+related works = previous works + yang mirip
+previous works = yang sudah dikerjakan dengan domain masalah sama

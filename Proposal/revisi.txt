@@ -1,0 +1,32 @@
+pak hari :
+1. tambahkan analisa statistik untuk menunjukkan distribusi data derau dalam dataset, gunakan hasilnya untuk menentukan metoda evaluasinya. (done)
+2. gunakan dataset real untuk cek distribusi / ratio derau (done)
+
+pak darlis :
+1. daftar isi, nomor di depan judul bab dihilangkan (done)
+2. cover : Jurusan -> departemen ,  nama fakultas diperbaiki (done)
+
+pak riyan :
+1. noise datanya sedikit waktu training dan testing maka data tidak balance. jelaskan cara menanggulangi imbalance. (done)
+2. jelaskan pengertian deteksi noise dan klasifikasi noise (done)
+3. jelaskan prosedur develop bow (done)
+
+
+1. 11_5hlmnSRS_uji11 --> noise = 21 , total = 65 (unused) tetap digunakan pada buku
+2. 1_libra_srs-uji1 --> noise = 1 , total = 13
+3. 24_srsv6-uji24 --> noise = 3 , total = 24
+4. 18_SoftwareRequirementsSpecification-uji18 --> noise = 9, total = 86
+5. 7_16hlmnExemplu_cerinte_software -uji7.doc --> noise = 1, total = 6
+6. 12_15hlmnSRS4.0_uji12 --> noise = 14, total = 106
+7. 4.argos_urd-uji4 --> noise = 1, total = 39
+8. 13_T1-Req-uji13 --> noise = 8, total = 64
+9. 15_bpms-uji15 --> noise = 2, total 17
+10. 2_SRS_sample V1.2 --> noise = 1, total = 17
+11. 14_yh-rr-ss-jw1-uji14 --> noise = 1, total = 33
+
+jumlah --> noise = 41, total = 405
+
+performa setelah pakai smote dengan k = 20, N = 200 adalah sbb :
+akurasi = 80.90, recall = 59.87, presisi = 73.98 
+
+jumlah kata per kalimat, jumlah kalimat, average panjang kata dari kata benda dalam noun phrase

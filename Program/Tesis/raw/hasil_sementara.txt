@@ -1,0 +1,91 @@
+SMOSIGMA1 =
+
+    0.9630
+
+
+SMOSIGMA1mat =
+
+    22     1
+     0     4
+     0     0
+
+
+SMOsigmaRecall =
+
+     1
+
+
+SMOsigmaPrecision =
+
+    0.8000
+
+Elapsed time is 0.048202 seconds.
+
+SMOlinear =
+
+    0.9259
+
+
+SMOlinearmat =
+
+    21     1
+     1     4
+     0     0
+
+
+SMOlinearRecall =
+
+    0.8000
+
+
+SMOlinearPrecision =
+
+    0.8000
+
+Elapsed time is 0.052353 seconds.
+
+SMOquadratic =
+
+    0.9630
+
+
+SMOquadraticmat =
+
+    22     1
+     0     4
+     0     0
+
+
+SMOquadraticRecall =
+
+     1
+
+
+SMOquadraticPrecision =
+
+    0.8000
+
+Elapsed time is 0.050582 seconds.
+
+SMOpoly =
+
+    0.9630
+
+
+SMOpolymat =
+
+    22     1
+     0     4
+     0     0
+
+
+SMOpolyRecall =
+
+     1
+
+
+SMOpolyPrecision =
+
+    0.8000
+
+Elapsed time is 0.047891 seconds.

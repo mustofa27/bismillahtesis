@@ -1,0 +1,8 @@
+catetan uji coba pake 2 dokumen srs :
+1. jumlah klaster berpengaruh
+2. karena pada requirement terkadang banyak kata yang diulang, contoh "User can...", "Sys ad must...",dll, jadi maximal document frequency untuk term juga harus di batasi
+3. jumlah requirement pada srs berbeda2, jadi susah ngakalin jumlah klaster & max_df
+4. jumlah klaster & max_df terbaik sementara :
+- jumlah klaster = 6
+- max_df = 0.5 (50%)
+5. hasil tiap run berbeda-beda, ada aspek random di dalam spectral clustering

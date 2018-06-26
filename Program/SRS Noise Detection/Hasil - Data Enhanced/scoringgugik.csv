@@ -1,0 +1,649 @@
+Nama File;Requirement Statement;Noise?
+1_libra_srs-uji1;submit jobs with the associated deadline, cost, and execution time;0
+1_libra_srs-uji1;query the cluster to establish the current cost per unit time for submitting new jobs;0
+1_libra_srs-uji1;monitor the status of submitted jobs;0
+1_libra_srs-uji1;cancel jobs submitted by him;0
+1_libra_srs-uji1;check his credit balance;1
+1_libra_srs-uji1;check his usage history ;0
+1_libra_srs-uji1;check the status of each node of the cluster;0
+1_libra_srs-uji1;check the usage pattern history of the cluster;0
+1_libra_srs-uji1;check the status of all submitted jobs;0
+1_libra_srs-uji1;check the load on each node of the cluster;0
+1_libra_srs-uji1;alter the cost structure of the cluster;0
+1_libra_srs-uji1;alter the scheduling policy of the cluster;0
+1_libra_srs-uji1;cancel, suspend, and resume any job;0
+2_SRS_sample V1.2;The system administrator must be able to deactivate and reactivate student account login;0
+2_SRS_sample V1.2;The system administrator must be able to force the sending of a new password to a student via email;0
+2_SRS_sample V1.2;The system administrator must be able to change any of a student's details;0
+2_SRS_sample V1.2;Student can be register on the system and fill in all detail and forward to choose project/supervisor;0
+2_SRS_sample V1.2;Student can change detail if information is incorrect such as telephone number;0
+2_SRS_sample V1.2;Student can change his login password at any time for security reason;0
+2_SRS_sample V1.2;Student can request his password if he/she forgotten the password;0
+2_SRS_sample V1.2;All staff can view the details of any student;0
+2_SRS_sample V1.2;Certain staff may be designated as Unit or Cohort Co-ordinators and can change the details of any student doing their unit or project cohort;0
+2_SRS_sample V1.2;Unit Cohort co-ordinator can change student detail for incorrect information;0
+2_SRS_sample V1.2;Unit Cohort co-ordinator can view student information and monitor their progress;0
+2_SRS_sample V1.2;Unit Cohort co-ordinator can list all students in different period of different group;0
+2_SRS_sample V1.2;Unit Cohort co-ordinator can reset the student’s password if required;0
+2_SRS_sample V1.2;System Administrator can list all students in different period of different group to check any error;0
+2_SRS_sample V1.2;System Administrator can reset the student’s password if required;0
+2_SRS_sample V1.2;Administration Staff can list all students in different period of different group;0
+2_SRS_sample V1.2;Administration Staff can make a school announcement;0
+4.argos_urd-uji4;The archive administrator can create a new client space.;0
+4.argos_urd-uji4;The client administrator can manage roles for its client.;0
+4.argos_urd-uji4;The archive administrator cannot access documents.;0
+4.argos_urd-uji4;The client administrator can view all roles.;0
+4.argos_urd-uji4;The client administrator can’t read the contents of documents.;0
+4.argos_urd-uji4;The client administrator cannot be deleted.;0
+4.argos_urd-uji4;An end user can have multiple roles at the same time.;0
+4.argos_urd-uji4;Each end user has a person role.;0
+4.argos_urd-uji4;Only authenticated end users at the client server can access (as phrased in URCAR 45-48 and URCAR50) the document space.;0
+4.argos_urd-uji4;End user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.;0
+4.argos_urd-uji4;An end user can view assigned rights that are assigned to his role.;0
+4.argos_urd-uji4;Each role is managed by at most one other role.;0
+4.argos_urd-uji4;Each role inherits all static rights from the roles it manages.;0
+4.argos_urd-uji4;Each role has a set (possibly empty) of person roles assigned to it.;0
+4.argos_urd-uji4;Each role owns a set of documents in the SDA.;0
+4.argos_urd-uji4;Each role has a set of rights assigned to it.;0
+4.argos_urd-uji4;The archive administrator can limit the available client space.;0
+4.argos_urd-uji4;A role can’t be deleted when there exists documents that are owned by that role.;0
+4.argos_urd-uji4;An end user can for a predefined period of time delegate a role to another person role.;0
+4.argos_urd-uji4;A role has a log in which the assignment of rights and the expiration of rights are logged.;0
+4.argos_urd-uji4;A role has a log in which delegations and the expiration of delegations are logged.;0
+4.argos_urd-uji4;A role can have the right to assign a role-right to a subordinate role.;0
+4.argos_urd-uji4;A role can have the right to remove a role-right from a subordinate role.;0
+4.argos_urd-uji4;A role can have the right to create subordinate roles.;0
+4.argos_urd-uji4;Any role has the right to read (view) all roles.;0
+4.argos_urd-uji4;A role can have the right to update subordinate roles.;0
+4.argos_urd-uji4;A role can have the right to delete subordinate roles.;0
+4.argos_urd-uji4;A role cannot be deleted when it manages subordinate roles.;0
+4.argos_urd-uji4;A role can have the right to couple a person role to a subordinate role.;0
+4.argos_urd-uji4;A role can have the right to decouple a person role from a subordinate role.;0
+4.argos_urd-uji4;A role can have the right to assign a document right of a document he owns to another role.;0
+4.argos_urd-uji4;A role can have the right to take a document right of a document he owns from another role.;0
+4.argos_urd-uji4;A role can upload files into the document space associated with that role.;0
+4.argos_urd-uji4;A role can download files from the document space associated with that role.;0
+4.argos_urd-uji4;A role with the update right can update files in the document space associated with that role.;0
+4.argos_urd-uji4;A role with the delete right can delete files in the document space associated with that role.;0
+4.argos_urd-uji4;Each document in the SDA is owned by exactly one role.;0
+4.argos_urd-uji4;A role that owns a document can hand over that ownership to another role.;0
+4.argos_urd-uji4;A role can chat with other person with the same role;0
+7_16hlmnExemplu_cerinte_software -uji7.doc;User can see detailed information about SGP;0
+7_16hlmnExemplu_cerinte_software -uji7.doc;User can apply for SGP;0
+7_16hlmnExemplu_cerinte_software -uji7.doc;User can application update form for SGP;0
+7_16hlmnExemplu_cerinte_software -uji7.doc;User can update personal data;0
+7_16hlmnExemplu_cerinte_software -uji7.doc;User can upload application related documents;1
+7_16hlmnExemplu_cerinte_software -uji7.doc;User can perform psychological test;1
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system supports (but does not require) streamlined staff login methods, for example staff member swipes a card to log into a terminal or the staff member logs into a terminal by using his/her individual login and password.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;System administrators can create reliable report templates that are available to staff, and can be run as is or modified to the staff person's particular needs. Changes in the templates could be done without comprising the results. The administrator can limit the filters and display fields that can be altered to certify a dependable output. For example, front-line staff could set the call number range for a weeding report or add or remove designated display fields from a pick list, but couldn’t alter the template to display deleted items.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;System provides distinct, fine-grained permission levels limiting who can create and clone reports. All permissions should be easy to administer. System administrators can create shared folders to allow or disallow staff to run specific reports, and/or to run ad hoc reports on specific sets of data.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"System provides a user-friendly interface for designing queries against all record types. Staff can select fields to query select values from picklist of possible values select regular expressions from drop-down menu, and use a full range of Boolean operators. Administrators control staff access to tables and fields.";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system provides pre-defined reports for consumption by library boards or other consumers. There will be reports providing basic statistics like those required by the Georgia Annual Report and Application for State Aid and activity reports that indicate traffic and volume of use that display statistics on check-outs, check-ins, holds placed, and holds filled. It should be possible cross-tabulated per terminal, per branch, per library system, per hour, per patron age range, per patron type, and per patron location.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Transactions are archived in a form that protects patron privacy as defined by State Law, while providing useful demographic statistics.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"Examples of periodic reports: bibliographic records with holds items that have not been checked out in X days item-level holds items with invalid item type in-transit items with outstanding hold items that have been in-transit for more than X days items that are the last copy in thesystem items with a long call number missing items bibliographic records with no item records patrons with invalid home library.";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;System provides the query selections along with the results.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Ability to see where your report is in the queue of reports waiting to run.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;System must be able to support the reporting definitions as described in Appendix A.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;System must be able to support the fine-grained reports requirements as described in Appendix B.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system produces statistics that can be used to understand and predict patron behavior and use of materials. For example, how quickly is a particular book returned, on average? How likely is a particular book to be renewed? What percent of check-outs at a particular branch are renewals?;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Ability to report on the volume of material in a given library at any point in time, based on new acquisitions, items on the shelf, and items out in circulation, with the ability to break down volume in categories (e.g. total items in library, number of holds, number of adult fiction, number of board books, etc).;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system provides an interface showing capacity of all branches (as defined in PINES-014).;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;For each genre and format of material, ability to compare the percentage of total circulations, the percentage of the collection, and the percentage of total shelf space that genre/format comprises. Ability to report per library and per system.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"Ability to control inventory of uncataloged material, such as paperback books and children's board books. Support for quick distribution minimal branch labor and ability to identify how the material is being used. Ability to count transactions and include in circulation statistics and reports.";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"System provides a utility for transferring batches of items between branches, used for example to move books into a mobile library, an outreach program collection, or a ""just-in-time"" warehouse. Utility includes ability to query for candidate materials ability to save queries for repeated use ability to manually select titles from query results and ability to change records of all or selected items to move to new location. Mechanisms for moving items include changing location field, generating pull lists, etc. In addition, utility provides means to revert items to original location after a set period of time, and/or based on other criteria.";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system generates a list of items that have been in-transit for more than X days (X configurable), per branch and per system.  The report would merge the transit to and transit from into one report for ease of front-line staff use.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"The system provides a utility and reports for identifying item records to purge, based on customizable criteria such as: an item has been in status ""missing"" for more than X months an item has status ""discard/weed"". The system has a report to assist in the conversion of items from one status to another. The system provides a last copy report that would single out a library system's last copies, to assist catalogers who need to edit WorldCat entries. The system provides a quick effective method of deleting volume entries along with copy entries, as well as records with no items attached.";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Ability to count and track record deletions (e.g. item records, patron records) per location and per system.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Queries and reports can be limited or grouped by various patron characteristics, including: age range, zip code, county of residence, home branch, patron type, and preferred language.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system generates a list of patrons with no circulation or electronic activity in the last X days (X configurable).  List should be configurable to System, Home Library, County, etc.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"Transaction history is maintained for X days (X is configurable) monthly and annual aggregate information is maintained indefinitely.";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Transactions can be grouped by hour, terminal, branch, and system. Transactions include check-ins, check-outs, fines collected, patron registrations, etc., and can be queried by all transactions or by type of transaction.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system counts all types of check-in individually and cumulatively: book-drop, by terminal, by user or self-service.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system counts all types of check-out individually and cumulatively: staff check-out, self check-out, staff renewal, self checkout renewal, online renewal, OPAC renewal.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system counts all hold requests, including how the hold was placed: at a staff desk, at a public computer inside the library, or remotely.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system can generate a report of transactions (holds placed, holds filled, and check-outs) per patron, per library, per selected group o libraries, per system, per county. The system displays the number of check-outs and placed holds per patron. Holds are subtotaled by type, e.g. active, frozen, and frozen-until holds.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system can generate a report of the value of items (based on data in item record) in the entire collection or a portion. Example: staff can obtain value of all items with status of longoverdue, or value of all dvds in children's collection, or value of entire collection.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;All reports and data archiving must comply with standard accounting practice and state, county, and municipal auditing requirements.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;Fines, charges, waivers, and ecommerce transactions are attached to patron and item records. System tracks fines waived and payments made per library. Financial information can be updated easily. As an example, a staff user can easily query patron accounts with balances greater than X dollars.;0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;"The system provides financial reports including: patron account balances by patron, home library, and system fines and charges accrued per time period (e.g. last twelve months, YTD, last month) and per type of charge (overdue fines, damaged item charges, lost item charges, etc.) fines waived per time period and per branch payments made per time period and per payment method (e.g. staff desk, self-check station, OPAC).";0
+9_PINES Reports Software Requirements Specification_Final uji9.doc;The system maintains a ledger of patron payments, including which charges payments are applied to, to facilitate reconciliation.;0
+11_5hlmnSRS_uji11;This software is being developed to for customer Xuan Gu, an employee for the CISE Department at the University of Florida.;1
+11_5hlmnSRS_uji11;TA1 is part of a four-part project consisting of a Faculty, Admin, TA1 and TA2.;1
+11_5hlmnSRS_uji11;The TA1 interface will allow the user to edit the number of TA slots for a particular course as well as assign/update TA applicant categories.;0
+11_5hlmnSRS_uji11;There will also be a secure login before any of these interfaces are accessible.;0
+11_5hlmnSRS_uji11;The format of this SRS is simple.;1
+11_5hlmnSRS_uji11;Bold face and indentation is used on general topics and or specific points of interest.;1
+11_5hlmnSRS_uji11;The remainder of the document will be written using the standard font, New Times Roman.;1
+11_5hlmnSRS_uji11;This document is intended to be read by the customer Xuan Gu.;1
+11_5hlmnSRS_uji11;This is a technical document and the terms should be understood by the customer.;1
+11_5hlmnSRS_uji11;The scope of this project includes our group of developers assisted by our customer, Xuan.;1
+11_5hlmnSRS_uji11;The scope thus far has been the completion of the basic interfaces that will be used to build the system.;1
+11_5hlmnSRS_uji11;The database used, has been set up and given the necessary permissions.;0
+11_5hlmnSRS_uji11;The constraints felt thus far by the group have only been our weekly story cards, the end-to-end side of the interface, and our first release, scheduled for February 11, 2004.;1
+11_5hlmnSRS_uji11;Resources have been used from Dr. Cubert’s website, www.cise.ufl.edu/~rmc/se/, and this SRS was modeled after one found online at http://www.processimpact.com/process_assets/srs_template.doc.;1
+11_5hlmnSRS_uji11;The TA1 Project is a new product that is part of a larger, more complete product for our customer.;0
+11_5hlmnSRS_uji11;It will provide the faculty a way of viewing all of the TA’s information that is necessary in order to make a decision on every TA’s status.;0
+11_5hlmnSRS_uji11;This project has three pages that are part of TA1, which is part of the larger product.;0
+11_5hlmnSRS_uji11;The first page is a login interface that will only allow access from the proper users.;0
+11_5hlmnSRS_uji11;The second page displays the available classes based on a certain semester and the course enrollment for a particular class.;0
+11_5hlmnSRS_uji11;The third and final page displays information about TA’s, their status, and any special notes that might’ve been posted about them.;0
+11_5hlmnSRS_uji11;The user classes will be TA1, TA2, Administration, and Faculty.;0
+11_5hlmnSRS_uji11;This product is web-based and will be hosted by a web server on the CISE website (www.cise.ufl.edu).;0
+11_5hlmnSRS_uji11;This product can be viewed by any web browser, and has been tested for compliance with Mozilla, Internet Explorer, Netscape Navigator, and Opera.;1
+11_5hlmnSRS_uji11;There are no constraints at this point in time.;1
+11_5hlmnSRS_uji11;The user documentation can be found in this SRS.;1
+11_5hlmnSRS_uji11;We assume that extra documentation beyond this SRS would not be necessary in order for the user to utilize this product.;1
+11_5hlmnSRS_uji11;This feature will give the user a secure and simple login screen.;0
+11_5hlmnSRS_uji11;It is based on professor Cubert’s exclusionary principle.;1
+11_5hlmnSRS_uji11;This means rather than creating try catches for a handful of error types, it just has only a handful of available and possible inputs, to prevent any improper logging in, which might cause unexpected errors, and therefore limiting the system’s capabilities.;0
+11_5hlmnSRS_uji11;It will consist of two basic fields, Username and Password.;0
+11_5hlmnSRS_uji11;There are two buttons: Login and Lost or Forgot Password.;0
+11_5hlmnSRS_uji11;Login will submit the entered data for approval followed by access, and the forgot password will direct the user to access his/her password which has been forgotten.;0
+11_5hlmnSRS_uji11;The most important function is to only grant access to users that are listed in the database.;0
+11_5hlmnSRS_uji11;The customer will provide the information on who will be allowed access.;0
+11_5hlmnSRS_uji11;To implement the security, the web page must check the database to see if the Username and Password are valid.;0
+11_5hlmnSRS_uji11;If they are not, the user will receive an “Invalid login. Please try again.” response.;0
+11_5hlmnSRS_uji11;This feature will allow the user to edit the number of TA slots for a specific course.;0
+11_5hlmnSRS_uji11;The user will be given a list of course numbers and names for a given semester.;0
+11_5hlmnSRS_uji11;They will also be provided with the number of students enrolled in each specific class.;0
+11_5hlmnSRS_uji11;This interface will consist of basic fields for the user to enter information.;0
+11_5hlmnSRS_uji11;Also, information about each person in the database that is listed will be shown if the mouse is highlighting a name for one second.;0
+11_5hlmnSRS_uji11;This helps alleviate some time when the user is searching for data because it lessens the usage of the submit button because the data has already been found.;1
+11_5hlmnSRS_uji11;Additionally, once logged in, upon hitting the back button and reentering the site will not call for another log in screen.;0
+11_5hlmnSRS_uji11;It will therefore take you to the following page of options.;0
+11_5hlmnSRS_uji11;To use this interface there will be many functional requirements.;1
+11_5hlmnSRS_uji11;The main function will use PHP to pull the course information off of the database.;0
+11_5hlmnSRS_uji11;This feature will not only provide the user with the general information on all the applicants, but also allow them to assign and update the TA categories.;0
+11_5hlmnSRS_uji11;The user will be given a list of names and UFID’s of all the applicants to their courses.;0
+11_5hlmnSRS_uji11;They will also be given the ability to sort the applicants in order of UFID or alphabetically by their last names.;0
+11_5hlmnSRS_uji11;The user will be able to change the status of the applicants as needed.;0
+11_5hlmnSRS_uji11;This interface will depend mostly on retrieving information from the database.;0
+11_5hlmnSRS_uji11;PHP will be integrated into the HTML and will retrieve needed information for the interface.;0
+11_5hlmnSRS_uji11;The site will be xhtml1.1 and css compliant.;0
+11_5hlmnSRS_uji11;The first interface is the log-in screen.;0
+11_5hlmnSRS_uji11;This is where the user has a specific Username and Password so that they can gain access to the database.;0
+11_5hlmnSRS_uji11;Next is the TA Slots interface.;1
+11_5hlmnSRS_uji11;You can choose which semester’s classes you would like to view and are able to update any of the categories displayed in the columns.;0
+11_5hlmnSRS_uji11;The next and final interface is the “assign/update” page.;0
+11_5hlmnSRS_uji11;Though not necessarily interfacing with the hardware, the system must make use with an internet connection.;0
+11_5hlmnSRS_uji11;The system uses an internet connection to connect to the database.;0
+11_5hlmnSRS_uji11;The code itself though, does not specifically direct the network controllers to do any work.;0
+11_5hlmnSRS_uji11;Along with the internet connection, the system makes indirect use of an internet browser.;0
+11_5hlmnSRS_uji11;Outside of the HTML code and PHP, the code doesn’t tell any software, including the browser, what to do.;1
+11_5hlmnSRS_uji11;Access to the database should be restricted to people that are required to view information about TA’s.;1
+11_5hlmnSRS_uji11;Passwords and ID’s should be regulated to be at least a certain length and must contain non-alphanumeric characters in both the password and ID.;0
+12_15hlmnSRS4.0_uji12;The system shall display detailed product categorization to the user.;0
+12_15hlmnSRS4.0_uji12;The system shall enable user to enter the search text on the screen.;0
+12_15hlmnSRS4.0_uji12;The system shall enable user to select multiple options on the screen to search.;0
+12_15hlmnSRS4.0_uji12;The system shall display all the matching products based on the search.;0
+12_15hlmnSRS4.0_uji12;The system shall display only 10 matching result on the current screen.;0
+12_15hlmnSRS4.0_uji12;The system shall enable user to navigate between the search results.;0
+12_15hlmnSRS4.0_uji12;The system shall notify the user when no matching product is found on the search.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to create profile and set his credential.;0
+12_15hlmnSRS4.0_uji12;The system shall authenticate user credentials to view the profile.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to update the profile information.;0
+12_15hlmnSRS4.0_uji12;The system shall display both the active and completed order history in the customer profile.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to select the order from the order history.;0
+12_15hlmnSRS4.0_uji12;The system shall display the detailed information about the selected order.;0
+12_15hlmnSRS4.0_uji12;The system shall display the most frequently searched items by the user in the profile.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to register for newsletters and surveys in the profile.;0
+12_15hlmnSRS4.0_uji12;The system shall provide online help, FAQ’s customer support, and sitemap options for customer support.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to select the support type he wants.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to enter the customer and product information for the support.;0
+12_15hlmnSRS4.0_uji12;The system shall display the customer support contact numbers on the screen.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to enter the contact number for support personnel to call.;0
+12_15hlmnSRS4.0_uji12;The system shall display the online help upon request.;0
+12_15hlmnSRS4.0_uji12;The system shall display the FAQ’s upon request.;0
+12_15hlmnSRS4.0_uji12;The system shall maintain customer email information as a required part of customer profile.;0
+12_15hlmnSRS4.0_uji12;The system shall send an order confirmation to the user through email.;0
+12_15hlmnSRS4.0_uji12;The system shall display detailed invoice for current order once it is confirmed.;0
+12_15hlmnSRS4.0_uji12;The system shall optionally allow user to print the invoice.;0
+12_15hlmnSRS4.0_uji12;The system shall provide shopping cart during online purchase.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to add/remove products in the shopping cart.;0
+12_15hlmnSRS4.0_uji12;The system shall display different shipping options provided by shipping department.;0
+12_15hlmnSRS4.0_uji12;The system shall enable user to select the shipping method during payment process.;0
+12_15hlmnSRS4.0_uji12;The system shall display the shipping charges.;0
+12_15hlmnSRS4.0_uji12;The system shall display tentative duration for shipping.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to enter the order information for tracking.;0
+12_15hlmnSRS4.0_uji12;The system shall display the current tracking information about the order.;0
+12_15hlmnSRS4.0_uji12;The system shall calculate tax for the order.;0
+12_15hlmnSRS4.0_uji12;The system shall display tax information for the order.;0
+12_15hlmnSRS4.0_uji12;The system shall display available payment methods for payment.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to select the payment method for order.;0
+12_15hlmnSRS4.0_uji12;The system shall display the orders that are eligible to change.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to select the order to be changed.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to cancel the order.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to change shipping, payment method.;0
+12_15hlmnSRS4.0_uji12;The system shall notify the user about any changes made to the order.;0
+12_15hlmnSRS4.0_uji12;The system shall display the reviews and ratings of each product, when it is selected.;0
+12_15hlmnSRS4.0_uji12;The system shall enable the user to enter their reviews and ratings.;0
+12_15hlmnSRS4.0_uji12;The system shall display all the available financing options.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to select the financing option.;0
+12_15hlmnSRS4.0_uji12;The system shall notify the use about the financing request.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to view detailed sitemap.;0
+12_15hlmnSRS4.0_uji12;The system shall display all the available promotions to the user.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to select available promotion.;0
+12_15hlmnSRS4.0_uji12;The system shall allow user to confirm the purchase.;0
+12_15hlmnSRS4.0_uji12;The system shall enable user to enter the payment information.;0
+12_15hlmnSRS4.0_uji12;The system shall provide a uniform look and feel between all the web pages.;0
+12_15hlmnSRS4.0_uji12;The system shall provide a digital image for each product in the product catalog.;0
+12_15hlmnSRS4.0_uji12;The system shall provide use of icons and toolbars.;0
+12_15hlmnSRS4.0_uji12;The system shall provide handicap access.;0
+12_15hlmnSRS4.0_uji12;The system shall provide multi language support.;0
+12_15hlmnSRS4.0_uji12;The system shall provide storage of all databases on redundant computers with automatic switchover.;0
+12_15hlmnSRS4.0_uji12;The system shall provide for replication of databases to off-site storage locations.;0
+12_15hlmnSRS4.0_uji12;The system shall provide RAID V Disk Stripping on all database storage disks.;0
+12_15hlmnSRS4.0_uji12;The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.;0
+12_15hlmnSRS4.0_uji12;The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.;0
+12_15hlmnSRS4.0_uji12;The product shall be based on web and has to be run from a web server.;0
+12_15hlmnSRS4.0_uji12;The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.;0
+12_15hlmnSRS4.0_uji12;The performance shall depend upon hardware components of the client/customer.;0
+12_15hlmnSRS4.0_uji12;The system shall use secure sockets in all transactions that include any confidential customer information.;0
+12_15hlmnSRS4.0_uji12;The system shall automatically log out all customers after a period of inactivity.;0
+12_15hlmnSRS4.0_uji12;The system shall confirm all transactions with the customer’s web browser.;0
+12_15hlmnSRS4.0_uji12;The system shall not leave any cookies on the customer’s computer containing the user’s password.;0
+12_15hlmnSRS4.0_uji12;The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.;0
+12_15hlmnSRS4.0_uji12;The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.;0
+12_15hlmnSRS4.0_uji12;The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.;0
+12_15hlmnSRS4.0_uji12;The system’s back-end servers shall never display a customer’s password.  The customer’s password may be reset but never shown.;0
+12_15hlmnSRS4.0_uji12;The system’s back-end servers shall only be accessible to authenticated administrators.;0
+12_15hlmnSRS4.0_uji12;The system’s back-end databases shall be encrypted.;0
+12_15hlmnSRS4.0_uji12;The source code developed for this system shall be maintained in configuration management tool.;0
+12_15hlmnSRS4.0_uji12;The system shall be built using a standard web page development tool that conforms to either IBM’s CUA standards or Microsoft’s GUI standards.;0
+12_15hlmnSRS4.0_uji12;There are no memory requirements.;1
+12_15hlmnSRS4.0_uji12;The computers must be equipped with web browsers such as Internet explorer.;1
+12_15hlmnSRS4.0_uji12;The product must be stored in such a way that allows the client easy access to it.;1
+12_15hlmnSRS4.0_uji12;Response time for loading the product should take no longer than five minutes.;1
+12_15hlmnSRS4.0_uji12;A general knowledge of basic computer skills is required to use the product.;1
+12_15hlmnSRS4.0_uji12;As the product is E-store, On-line help system becomes a critical component of the system which shall provide –.;0
+12_15hlmnSRS4.0_uji12;It shall provide specific guidelines to a user for using the E-Store system and within the system.;0
+12_15hlmnSRS4.0_uji12;To implement online user help, link and search fields shall be provided.;0
+12_15hlmnSRS4.0_uji12;"There are many types of interfaces as such supported by the E-Store software system namely User Interface, Software Interface and Hardware Interface.";1
+12_15hlmnSRS4.0_uji12;The protocol used shall be HTTP.;1
+12_15hlmnSRS4.0_uji12;The Port number used will be 80.;1
+12_15hlmnSRS4.0_uji12;There shall be logical address of the system in IPv4 format.;1
+12_15hlmnSRS4.0_uji12;The user interface for the software shall be compatible to any browser such as Internet Explorer, Mozilla or Netscape Navigator by which user can access to the system.;1
+12_15hlmnSRS4.0_uji12;The user interface shall be implemented using any tool or software package like Java Applet, MS Front Page, EJB etc.;1
+12_15hlmnSRS4.0_uji12;Since the application must run over the internet, all the hardware shall require to connect internet will be hardware interface for the system. As for e.g. Modem, WAN – LAN, Ethernet Cross-Cable.;1
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with the Configurator to identify all the available components to configure the product.;0
+12_15hlmnSRS4.0_uji12;The e-store shall communicate with the content manager to get the product specifications, offerings and promotions.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with billPay system to identify available payment methods , validate the payments and process payment.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate to credit management system for handling financing options.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with CRM system to provide support.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with Sales system for order management.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with shipping system for tracking orders and updating of shipping methods.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with external Tax system to calculate tax.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall communicate with export regulation system to validate export regulations.;0
+12_15hlmnSRS4.0_uji12;The system shall be verisign like software which shall allow the users to complete secured transaction. This usually shall be the third party software system which is widely used for internet transaction.;0
+12_15hlmnSRS4.0_uji12;The e-store system shall use the HTTP protocol for communication over the internet and for the intranet communication will be through TCP/IP protocol suite.;1
+12_15hlmnSRS4.0_uji12;E-store should display the disclaimers, copyright, word mark, trademark and product warranties of the Marvel electronics and home entertainment.;0
+12_15hlmnSRS4.0_uji12;It shall be as per the industry standard.;1
+13_T1-Req-uji13;The only requirements besides having an iPhone will be having a Twitter account and internet acces;1
+13_T1-Req-uji13;The Twitter client will use several different data objects while in operation.;1
+13_T1-Req-uji13;The data objects that are while used inside the Application will be the main driving force of the client.;1
+13_T1-Req-uji13;They will provide all the information the user wants to see based on what he or she inputs;0
+13_T1-Req-uji13;The user is the main data object of the client’s system.;0
+13_T1-Req-uji13;The user will log into the client by supplying a username and password.;0
+13_T1-Req-uji13;If the user does not already have a Twitter account, then they will have to create one in order to log into the client;0
+13_T1-Req-uji13;After logging in, the user will then be able to use a search box for any anything they may want to search for, or they can enter a new Tweet for their own account.;0
+13_T1-Req-uji13;The user will also be able to select who to follow, and whether or not to allow someone to follow them.;0
+13_T1-Req-uji13;The user’s Twitter page is an important data object in regards to the client.;1
+13_T1-Req-uji13;This is where all the users Tweets are displayed and also the list of whom he or she is following or who is following them.;0
+13_T1-Req-uji13;As the user enters new Tweets or someone tags his or her name in a Tweet, the page will change.;0
+13_T1-Req-uji13;The new page must be updated every time a change occurs.;0
+13_T1-Req-uji13;A Tweet is another data object.;1
+13_T1-Req-uji13;A Tweet will be input by the user of the client.;0
+13_T1-Req-uji13;A Tweet can be any sort of text as long as it is under the maximum number of characters allowed per Tweet.;0
+13_T1-Req-uji13;A newly entered Tweet will appear on the user’s Twitter page upon submission.;0
+13_T1-Req-uji13;Other pages on Twitter are also data objects.;1
+13_T1-Req-uji13;The user will be able to access other pages by either searching or clicking a linked page on their page.;0
+13_T1-Req-uji13;The client would not be appealing if only the user’s page could be accessed, so ability to access other pages is essential.;0
+13_T1-Req-uji13;A trending topics page will be very useful to the user because it will keep them up to date on what is popular.;0
+13_T1-Req-uji13;The user will enter a Tweet that can be seen by themselves and anyone who is following them.;0
+13_T1-Req-uji13;If the user is tagged in a tweet it will immediately be viewable by the user.;0
+13_T1-Req-uji13;The user has the ability to search for other Twitter pages by using a search box.;0
+13_T1-Req-uji13;The Twitter client will store data only in one location.;0
+13_T1-Req-uji13;The only data that will be stored will be the user’s username and password to increase ease of access.;0
+13_T1-Req-uji13;The tweets that the user enters and the tweets that the user is tagged in will all be handled by the Twitter API that we will be working with.;0
+13_T1-Req-uji13;The searches that the user submits do not need to be saved, so they will not be.;0
+13_T1-Req-uji13;A user will enter his/her credentials into the proper fields and the user will be logged into the Twitter system.;0
+13_T1-Req-uji13;User will be given option to remember credentials so further input at startup is not necessary.;0
+13_T1-Req-uji13;When the user clicks logout all personal data will be removed and all program data will be wiped.;0
+13_T1-Req-uji13;The user’s password will be removed and the user will be forced to re-enter their credentials at next startup.;0
+13_T1-Req-uji13;Once the user has successfully logged into the Twitter system, the users Twitter feed will be displayed on the screen.;0
+13_T1-Req-uji13;The number of previous data displayed will be preset by the user in the preferences pane.;0
+13_T1-Req-uji13;A new view will display and show a composition window with various rich text and multimedia options.;0
+13_T1-Req-uji13;The user can then enter his/her tweet and submit it to the Twitter system.;0
+13_T1-Req-uji13;The tweet will be immediately displayed on the users feed.;0
+13_T1-Req-uji13;When in the composition window, the user will be prompted with an image picker which will allow the user to insert an image from the users device.;0
+13_T1-Req-uji13;When in the composition windows, the camera display will be shown and once the image is taken, the user will be given the option to keep re-taking.;0
+13_T1-Req-uji13;If the user keeps the photo it will be used in the composition window, if the user selects re-take, the photo will be deleted and the camera display will be shown again.;0
+13_T1-Req-uji13;The user will be prompted to insert existing voice memo or take a new voice memo.;0
+13_T1-Req-uji13;The user will be prompted with a clip picker so the user may select a pre-existing clip on their device.;0
+13_T1-Req-uji13;The user will be shown the voice memo window in which he/she may record a new voice memo.;0
+13_T1-Req-uji13;The user will then have the option to hear the voice memo before submitting.;0
+13_T1-Req-uji13;Once listened to, the user may select keep or re-record.;0
+13_T1-Req-uji13;If the user decides to keep the memo, the memo will be inserted into the composition window.;0
+13_T1-Req-uji13;If the user decided to re-record, the memo will be removed and the user will be shown the voice memo window again.;0
+13_T1-Req-uji13;This function will display all mentions of the users handle (or username) in the Twitter system.;0
+13_T1-Req-uji13;This function will display a search window in which the user can search for specific words in Tweets.;0
+13_T1-Req-uji13;The window will also offer the ability to search for users on Twitter.;0
+13_T1-Req-uji13;This window will display the users Direct Message (or DM) inbox.;0
+13_T1-Req-uji13;This function will also allow the user to compose a new message, delete current messages, and read existing messages in greater detail.;0
+13_T1-Req-uji13;This function will display topics which are currently trending on twitter.;0
+13_T1-Req-uji13;The order of the topics will be determined by the items rise in popularity over a given timeline.;0
+13_T1-Req-uji13;This function will display a preferences view which will contain various settings which the user may change based on preference.;0
+13_T1-Req-uji13;The Twitter client will run natively on all iOS devices, including the iPod touch and iPad.;0
+13_T1-Req-uji13;The client will be designed specifically for the iPhone/iPod Touch but it will retain the same functionality on the iPad.;0
+13_T1-Req-uji13;The Twitter client will rely heavily on the Twitter API for retrieval of user data.;0
+13_T1-Req-uji13;The client must work closely with the Twitter systems to authenticate and deliver content.;1
+13_T1-Req-uji13;The client will be designed to work with the latest API available and compatibility is guaranteed with and iOS device running the latest version of iOS.;1
+13_T1-Req-uji13;The client will utilize a common design theme throughout the entire system.;0
+13_T1-Req-uji13;The application will contain multiple views, each of which will serve some primary function.;0
+13_T1-Req-uji13;Each of these interfaces will differ only in content, but will maintain similar design themes.;0
+13_T1-Req-uji13;The interface will utilize a fluid and robust interface, it will be easy to understand and will not require a tutorial for first-use (although one will be provided).;0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" shall initiate a meeting by deciding on a ""meeting topic"", by selecting a list of ""potential meeting participants"", and by selecting a ""date range"", ""duration"", and ""location"" for the meeting.";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" or ""potential meeting participant"" shall provide the ability where a person may ""delegate"" the ability to initiate or accept (or decline) a meeting to another system user.";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" shall be one of the ""potential meeting participants"" by default but may opt to remove himself as a ""potential meeting participant"".";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" shall confirm the meeting and the system shall change the ""time slots"" of accepting ""meeting participants"" from a temporary reservation to a scheduled meeting, once all ""potential meeting participants"" have responded to the ""meeting proposal.";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" shall cancel the meeting and the system shall change the ""time slots"" from being temporarily reserved to be freed once the meeting is canceled.";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" shall reschedule the meeting and the system reschedule the meeting by releasing the temporary reservations and selecting a different ""data range"", ""duration"", or ""location"" and starting the process over.";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" may send a ""meeting proposal"" for a ""virtual meeting"" for the available ""time slot"" if the ""date range"" and ""duration"" is acceptable but no location for the meeting is available.";0
+14_yh-rr-ss-jw1-uji14;"A ""meeting initiator"" may cancel the meeting or reschedule the meeting at any time prior to the start of the meeting.";0
+14_yh-rr-ss-jw1-uji14;A meeting scheduler may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;0
+14_yh-rr-ss-jw1-uji14;"A meeting scheduler may provide the ""meeting initiator"" a summary of the scan of ""potential meeting participants"" showing available ""time slots"" and schedule conflicts as a means of informing the ""meeting initiator"" of the overall results of the system.";0
+14_yh-rr-ss-jw1-uji14;"The ""meeting initiator"" may designate one or more ""potential meeting participants"" as ""important"" meaning that their attendance at the meeting is required in order to have the meeting.";0
+14_yh-rr-ss-jw1-uji14;"The ""meeting proposal"" may include an ""agenda"" or list of topics for discussion during the meeting and may include a list of ""required equipments"".";0
+14_yh-rr-ss-jw1-uji14;"A meeting scheduler will scan all the list of ""potential meeting participants"" to determine a ""time slot"" of the required ""duration"" exists among all ""potential meeting participants"" once a ""meeting proposal"" is entered to the system.";0
+14_yh-rr-ss-jw1-uji14;"A meeting scheduler will inform the ""meeting initiator"" that no ""time slot"" exists for all ""potential meeting participants"" and may optionally suggest an alternative ""date range"", ""duration"", and ""location"" which is available.";0
+14_yh-rr-ss-jw1-uji14;"A meeting scheduler will temporarily reserve the ""time slots"" for the proposed meeting and inform the ""potential meeting participant"" of the meeting and request input as to ""will attend"" or ""will not attend"", if a ""time slot"" exists.";0
+14_yh-rr-ss-jw1-uji14;"A ""potential meeting participant"" or their ""delegate"" may accept or refuse the meeting. If accepting, the ""potential meeting participant"" becomes a ""confirmed meeting participant"". If refusing, the ""potential meeting participant"" may provide a reason for his refusal.";0
+14_yh-rr-ss-jw1-uji14;"A ""confirmed meeting participant"" may request special equipment.";0
+14_yh-rr-ss-jw1-uji14;"A ""potential meeting participant"" or ""confirmed meeting participant"" may confirm or cancel their attendance at the meeting subject to the administrative rules and practices of the participant’s.";0
+14_yh-rr-ss-jw1-uji14;"Any physical changes to the ""location"" and its ""required equipment"" shall be kept up-to-date.";0
+14_yh-rr-ss-jw1-uji14;"If any physical changes to the ""location"" and its ""required equipments"" shall occur after a ""meeting proposal"" and before the meeting date, the ""meeting initiator"" shall be notified promptly.";0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system shall be able to schedule a meeting with a meeting topic, date range, duration, and location for a list of participants.;0
+14_yh-rr-ss-jw1-uji14;"The meeting scheduler system shall monitor meetings, since some of the meeting held as a ""virtual meeting"".";0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system shall be able to select a participant as an important participant.;0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system shall cancel a meeting due to canceling of an important participant.;0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system shall reschedule a meeting to support conflict resolutions.;0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler shall be accessed from the Web.;1
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;0
+14_yh-rr-ss-jw1-uji14;"The meeting scheduler system may provide the ""meeting initiator"" a summary of the scan of ""potential meeting participants"" showing available ""time slots"" and schedule conflicts as a means of informing the ""meeting initiator"" of the overall results of the system.";0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system may be able to include an agenda for a meeting proposal.;0
+14_yh-rr-ss-jw1-uji14;"The meeting scheduler system may suggest a ""virtual meeting"" for available ""time slots"" if no location is available or feasible for the meeting.";0
+14_yh-rr-ss-jw1-uji14;The meeting scheduler system may be able to include a list of required equipment for a meeting proposal.;0
+14_yh-rr-ss-jw1-uji14;"A meeting scheduler system will temporarily reserve the ""time slots"" for the proposed meeting.";0
+14_yh-rr-ss-jw1-uji14;"A meeting scheduler system will inform the ""potential meeting participant"" of the meeting.";0
+15_bpms-uji15;Items are bought from various vendors located in or outside United States.;0
+15_bpms-uji15;The buyer get in contact with various vendors and create catalog (list of items) from where the Store Managers of every store buy items for their store.;0
+15_bpms-uji15;The Online system will give the advantage of keeping track of all purchase orders at any given point of time thus eliminating paper work and in turn error caused by it;0
+15_bpms-uji15;All The above users have similar rights.;1
+15_bpms-uji15;They have total access the BPMS system.;0
+15_bpms-uji15;They have the rights to generate new users in the system.;0
+15_bpms-uji15;They will have the total access to all the information in the system being a people from the management team of the organization.;0
+15_bpms-uji15;District manager may have more than 1 store under him.;0
+15_bpms-uji15;He logs in he sees only stores under him i.e. a list of his stores and toggle between them.;0
+15_bpms-uji15;He should have managerial type access only for those stores that are under him.;0
+15_bpms-uji15;The Store Manager and Assistant Store Manager have limited access in the BPMS.;1
+15_bpms-uji15;They will be able to see the details restricted to their Store only.;0
+15_bpms-uji15;Cost of items bought will not be disclosed;0
+15_bpms-uji15;The comparison with other vendor items will not shown;0
+15_bpms-uji15;Enter the details of Sales for his store registers;0
+15_bpms-uji15;The Usage of the system will be restricted only to add cash registers and Changing his password;0
+15_bpms-uji15;The Stores will have limited Internet access that is the usage of BPMS system online rest of the Internet will not be accessible.;0
+18_SoftwareRequirementsSpecification-uji18;The product provides the members with online blocking of books capabilities and the Online Library System is up and running all day.;0
+18_SoftwareRequirementsSpecification-uji18;The system provides logon facility to the users.;0
+18_SoftwareRequirementsSpecification-uji18;The system provides the members with the option to check their account and/or change their options like password of the account whenever needed all through the day during the library hours.;0
+18_SoftwareRequirementsSpecification-uji18;The system allows the members to block the books 24 hours a day and all the through the semester.;0
+18_SoftwareRequirementsSpecification-uji18;The system lets the library staff to check which all members have blocked the books and whether they can borrow any more books or not.;0
+18_SoftwareRequirementsSpecification-uji18;The system allows the Librarian to create the books catalog, add/delete books and maintain the books catalog.;0
+18_SoftwareRequirementsSpecification-uji18;The system updates the billing system as and when the member borrows or returns a book.;0
+18_SoftwareRequirementsSpecification-uji18;The book catalog is automated and the decision of offering the book based on the category of the book is automatically decided.;0
+18_SoftwareRequirementsSpecification-uji18;We also have an order department, which manages to add or remove a book from the Library.;0
+18_SoftwareRequirementsSpecification-uji18;The member should be provided with the updated information about the books catalog.;0
+18_SoftwareRequirementsSpecification-uji18;Provisions for the members to borrow the books they want, if all the other required rules hold good.;0
+18_SoftwareRequirementsSpecification-uji18;The member is given a provision to check his account information and change the account information any time in the given valid period.;1
+18_SoftwareRequirementsSpecification-uji18;The members are provided with the books available roster and allowed to choose the books, which they want to use in the coming up days.;0
+18_SoftwareRequirementsSpecification-uji18;The librarian can get the information about the members who have borrowed or returned the books.;0
+18_SoftwareRequirementsSpecification-uji18;The librarian is provided with interfaces to add/delete the books available in the book catalog.;0
+18_SoftwareRequirementsSpecification-uji18;The members when complete the book borrowing or returning process, the due to be paid by the member must be calculated and the information about the member and the due amount is sent to the university billing system.;0
+18_SoftwareRequirementsSpecification-uji18;The system uses the University information security requirements to provide the login facility to the users.;0
+18_SoftwareRequirementsSpecification-uji18;The information of all the users must be stored in a database that is accessible by the Online Library System.;0
+18_SoftwareRequirementsSpecification-uji18;The university information security system must be compatible with the Internet applications.;1
+18_SoftwareRequirementsSpecification-uji18;The Online Library System is connected to the university computer and is running all 24 hours a day.;0
+18_SoftwareRequirementsSpecification-uji18;The users access the Online Library System from any computer that has Internet browsing capabilities and an Internet connection.;1
+18_SoftwareRequirementsSpecification-uji18;The billing system is connected to the Online Library System and the database used by the billing system must be compatible with the interface of the Online Library System.;0
+18_SoftwareRequirementsSpecification-uji18;The users must have their correct usernames and passwords to enter into the Online Library System.;0
+18_SoftwareRequirementsSpecification-uji18;The users have sufficient knowledge of computers.;1
+18_SoftwareRequirementsSpecification-uji18;The University computer should have Internet connection and Internet server capabilities.;0
+18_SoftwareRequirementsSpecification-uji18;The users know the English language, as the user interface will be provided in English;0
+18_SoftwareRequirementsSpecification-uji18;The product can access the university student database;0
+18_SoftwareRequirementsSpecification-uji18;The system shall provide the users with logon capabilities.;0
+18_SoftwareRequirementsSpecification-uji18;The Online Library System is also supported on mobile devices such as cell phones.;0
+18_SoftwareRequirementsSpecification-uji18;The system can alert the Librarian or the administrator in case of any problems.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall allow the users to access the system from the Internet using HTML or it’s derivative technologies.;0
+18_SoftwareRequirementsSpecification-uji18;The system uses a web browser as an interface.;0
+18_SoftwareRequirementsSpecification-uji18;Since all users are familiar with the general usage of browsers, no specific training is required.;1
+18_SoftwareRequirementsSpecification-uji18;The system is user friendly and self-explanatory.;0
+18_SoftwareRequirementsSpecification-uji18;The system has to be very reliable due to the importance of data and the damages incorrect or incomplete data can do.;0
+18_SoftwareRequirementsSpecification-uji18;The system is available 100% for the user and is used 24 hrs a day and 365 days a year.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall be operational 24 hours a day and 7 days a week.;0
+18_SoftwareRequirementsSpecification-uji18;The system will be developed in such a way that it may fail once in a year.;0
+18_SoftwareRequirementsSpecification-uji18;Even if the system fails, the system will be recovered back up within an hour or less.;0
+18_SoftwareRequirementsSpecification-uji18;The accuracy of the system is limited by the accuracy of the speed at which the employees of the library and users of the library use the system.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall provide 100% access reliability.;0
+18_SoftwareRequirementsSpecification-uji18;The Splash Page or Information page should be able to be downloaded within a minute using a 56K modem.;0
+18_SoftwareRequirementsSpecification-uji18;The information is refreshed every two minutes.;0
+18_SoftwareRequirementsSpecification-uji18;The access time for a mobile device should be less than a minute.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall respond to the member in not less than two seconds from the time of the request submittal.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall be allowed to take more time when doing large processing jobs.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall take as less time as possible to provide service to the administrator or the librarian.;0
+18_SoftwareRequirementsSpecification-uji18;The number of transactions is directly dependent on the number of users, the users may be the Librarian, employees of the Library and also the people who use the Library for checking-out books, returning books and checking online library account.;0
+18_SoftwareRequirementsSpecification-uji18;The system is capable of handling 250 users at a time.;0
+18_SoftwareRequirementsSpecification-uji18;The resources are modified according the user requirements and also according to the books requested by the users.;0
+18_SoftwareRequirementsSpecification-uji18;The system designers shall take in to considerations the following supportability and technical limitations.;1
+18_SoftwareRequirementsSpecification-uji18;The system shall be comply with the TCP/IP protocol standards and shall be designed accordingly.;0
+18_SoftwareRequirementsSpecification-uji18;The system shall support the UHCL information security requirements and use the same standard as the UHCL information security requirements.;0
+18_SoftwareRequirementsSpecification-uji18;The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.;0
+18_SoftwareRequirementsSpecification-uji18;The maintenance of the system shall be done as per the maintenance contract.;0
+18_SoftwareRequirementsSpecification-uji18;The coding standards and naming conventions will be as per the American standards.;0
+18_SoftwareRequirementsSpecification-uji18;The languages that shall be used for coding the Online Library System are Active Server Pages (ASP), Java Servlets, Java Server Pages (JSP), HTML, JavaScript, and VBScript.;0
+18_SoftwareRequirementsSpecification-uji18;For working on the coding phase of the Online Library System, the Internet Information Services (IIS) Server needs to be installed.;0
+18_SoftwareRequirementsSpecification-uji18;Will make use of the available Java Development Tool kits for working with Java Beans and Java Server Pages.;0
+18_SoftwareRequirementsSpecification-uji18;Also will make use of the online references available for developing programs in ASP, HTML and the two scripting languages, JavaScript and VBScript.;0
+18_SoftwareRequirementsSpecification-uji18;Will make use of the existing Java libraries available for JSP and Servlets.;0
+18_SoftwareRequirementsSpecification-uji18;Also we need to develop some new libraries for the web-based application.;0
+18_SoftwareRequirementsSpecification-uji18;Also will develop new programs using ASP and scripting languages.;0
+18_SoftwareRequirementsSpecification-uji18;Online help is provided for each of the feature available with the Online Library System.;0
+18_SoftwareRequirementsSpecification-uji18;All the applications provide an on-line help system to assist the user.;0
+18_SoftwareRequirementsSpecification-uji18;The nature of these systems is unique to application development as they combine aspects of programming (hyperlinks, etc) with aspects of technical writing (organization, presentation).;1
+18_SoftwareRequirementsSpecification-uji18;Online help is provided for each and every feature provided by the system.;0
+18_SoftwareRequirementsSpecification-uji18;The User Manual describes the use of the system to Librarian and Employees.;0
+18_SoftwareRequirementsSpecification-uji18;It describes the use of the system on mobile systems.;0
+18_SoftwareRequirementsSpecification-uji18;The user manual should be available as a hard copy and also as online help.;0
+18_SoftwareRequirementsSpecification-uji18;An installation document will be provided that includes the installation instructions and configuration guidelines, which is important to a full solution offering.;0
+18_SoftwareRequirementsSpecification-uji18;Also, a Read Me file is typically included as a standard component.;0
+18_SoftwareRequirementsSpecification-uji18;"The Read Me includes a ""What's New With This Release"" section, and a discussion of compatibility issues with earlier releases.";0
+18_SoftwareRequirementsSpecification-uji18;Most users also appreciate documentation defining any known bugs and workarounds in the Read Me file.;0
+18_SoftwareRequirementsSpecification-uji18;Since the installation of Online Library System is a complex process, our experts will do it.;0
+18_SoftwareRequirementsSpecification-uji18;So an installation Guide will not be provided to the user.;0
+18_SoftwareRequirementsSpecification-uji18;The System Administrator will need to purchase the license for IIS Server.;0
+18_SoftwareRequirementsSpecification-uji18;Mostly it is available with Windows Environment.;1
+18_SoftwareRequirementsSpecification-uji18;So the system need not purchase any licensing products.;1
+18_SoftwareRequirementsSpecification-uji18;Will make use of the existing Web Browsers such as Microsoft Internet Explorer or Netscape.;0
+18_SoftwareRequirementsSpecification-uji18;The user-interface of the system shall be designed as shown in the user-interface prototypes.;0
+18_SoftwareRequirementsSpecification-uji18;The existing Local Area Network (LAN) will be used for collecting data from the users and also for updating the Library Catalogue.;0
+18_SoftwareRequirementsSpecification-uji18;A firewall will be used with the server to prevent unauthorized access to the system.;0
+18_SoftwareRequirementsSpecification-uji18;The Online Library System will be connected to the World Wide Web.;0
+18_SoftwareRequirementsSpecification-uji18;The usage is restricted to only University of Houston-Clearlake Library who is purchasing the Online Library System from Library InfoSys and signs the maintenance contract.;0
+18_SoftwareRequirementsSpecification-uji18;Online Library System is a trademark of Library InfoSys and cannot be used without its consent.;0
+22_horus_urd-uji22;A user shall have an account.;0
+22_horus_urd-uji22;An account is either an administrator account, a scientist account or an observer account.;0
+22_horus_urd-uji22;IMSETY shall be a multi-user system.;0
+22_horus_urd-uji22;IMSETY shall require users to be logged in before they can use any of the system’s functionality.;0
+22_horus_urd-uji22;IMSETY shall not allow administrators and scientists to be logged in more than once.;0
+22_horus_urd-uji22;IMSETY shall include a demonstration experiment.;0
+22_horus_urd-uji22;A user shall only be able to use those parts of the system to which he is authorized.;0
+22_horus_urd-uji22;Observers shall not be authorized to manipulate experiments.;0
+22_horus_urd-uji22;IMSETY shall adhere to table 2.1 for user rights.;0
+22_horus_urd-uji22;IMSETY shall allow scientists and administrators to retrieve all logged communications, according to user rights.;0
+22_horus_urd-uji22;An administrator shall be able to register a satellite with the system.;0
+22_horus_urd-uji22;An administrator shall be able to retrieve the information of a registered satellite.;0
+22_horus_urd-uji22;An administrator shall be able to update the information of a registered satellite.;0
+22_horus_urd-uji22;An administrator shall be able to unregister a satellite with the system.;0
+22_horus_urd-uji22;An administrator shall be able to register a payload with the system.;0
+22_horus_urd-uji22;An administrator shall be able to configure whether multiple experiments may be executed simultaneously on a particular satellite.;0
+22_horus_urd-uji22;An administrator shall be able to retrieve the information of a registered payload.;0
+22_horus_urd-uji22;An administrator shall be able to update the information of a registered payload.;0
+22_horus_urd-uji22;At any moment, only one administrator is allowed to update the information of a single payload registration.;0
+22_horus_urd-uji22;An administrator shall be able to unregister a payload with the system.;0
+22_horus_urd-uji22;An administrator shall be able to link a registered payload to exactly one satellite.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to create an account.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to retrieve account information.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to configure all plug-ins for the system.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to update account information.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to delete an account.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to configure which users have particular rights to which payloads.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to set up possible payload specific commands through a plain text file.;0
+22_horus_urd-uji22;IMSETY shall allow an administrator to set up possible satellite commands through an interface.;0
+22_horus_urd-uji22;IMSETY shall allow scientists to retrieve experiment details.;0
+22_horus_urd-uji22;IMSETY shall communicate a list of payload specific commands to the scientist.;0
+22_horus_urd-uji22;IMSETY shall let scientists select commands from this list and thereby compose an experiment.;0
+22_horus_urd-uji22;IMSETY shall not allow scientists to type in commands directly.;0
+22_horus_urd-uji22;A scientist shall be able to request the scheduling of the execution of experiments on a predefined moment.;0
+22_horus_urd-uji22;A scientist shall be able to request an experiment, which has not yet been executed, to be unscheduled.;0
+22_horus_urd-uji22;A scientist shall be able to request to change an experiment, before it is being executed.;0
+22_horus_urd-uji22;A scientist shall be able to send commands to an experiment already executing.;0
+22_horus_urd-uji22;At any moment, only one scientist is allowed to compose an experiment on a single payload.;0
+22_horus_urd-uji22;The system shall upload experiments scheduled and queued for upload to a satellite whenever there is a window of opportunity.;0
+22_horus_urd-uji22;The system shall download high volume data requested by scientists from the satellite whenever there is a window of opportunity.;0
+22_horus_urd-uji22;Experiment data can be retrieved from the system.;0
+22_horus_urd-uji22;Experiment data can be observed in real time while the experiment is being executed during a window of opportunity.;0
+22_horus_urd-uji22;IMSETY will support the visualization of video data.;0
+22_horus_urd-uji22;IMSETY will support the visualization of picture data.;0
+22_horus_urd-uji22;IMSETY will have a plug-in system for data representation. 290;0
+22_horus_urd-uji22;IMSETY will have a plug-in system for the postprocessing of data representations.;0
+22_horus_urd-uji22;Observers are able to see representations.;0
+22_horus_urd-uji22;Observation data can only be gathered during an experiment.;0
+22_horus_urd-uji22;Collected observation data can be exported from the system to several formats.;0
+22_horus_urd-uji22;IMSETY shall allow the requesting of downloading of high resolution images from these marked periods.;0
+22_horus_urd-uji22;Periods can be marked during real-time observation.;0
+22_horus_urd-uji22;A plug-in system for data preprocessing shall be provided.;0
+22_horus_urd-uji22;A plug-in providing an example for data preprocessing will be provided.;0
+22_horus_urd-uji22;A plug-in providing an example of representation postprocessing will be provided.;0
+22_horus_urd-uji22;The system shall show thumbnails provided by a satellite.;0
+22_horus_urd-uji22;IMSETY shall allow a scientist to request high resolution versions of the images represented by these thumbnails to be downloaded.;0
+22_horus_urd-uji22;IMSETY shall represent a timeline of one-way and two-way communication opportunities.;0
+22_horus_urd-uji22;IMSETY shall provide the possibility to book one-way communications. 310;0
+22_horus_urd-uji22;IMSETY shall provide the possibility to book two-way communications.;0
+22_horus_urd-uji22;IMSETY shall communicate failure of satellite communication to the scientist.;0
+22_horus_urd-uji22;IMSETY shall communicate failure of communication with GENSO to the scientist.;0
+22_horus_urd-uji22;IMSETY shall communicate the rejection of bookings to the scientist.;0
+22_horus_urd-uji22;IMSETY shall log all communications with satellites. 315;0
+22_horus_urd-uji22;IMSETY shall log all communications with the MCCs.;0
+22_horus_urd-uji22;IMSETY shall log all communications with the MCSes.;0
+22_horus_urd-uji22;The system shall interface with GENSO through an MCC for purposes of booking.;0
+22_horus_urd-uji22;The system shall interface with an MCS for communication with satellites.;0
+22_horus_urd-uji22;A protocol shall be defined for interfacing with the MCS based on a list of commands provided by the customer.;1
+22_horus_urd-uji22;The interface of the system shall be accessible on Windows 2000/XP/Vista, Mac OS X, Sun Solaris and Linux.;0
+22_horus_urd-uji22;IMSETY’s backend shall run on a Linux server.;0
+24_srsv6-uji24;Manage course information: the general user can use the system to enter and modify course information. The local database maintains the information.;0
+24_srsv6-uji24;Manage student information: the general user can use the system to enter and modify student information, or to download student information from the university database. In addition, the user can delete a student from a course. The local database maintains the information.;0
+24_srsv6-uji24;Enter outcomes: the general user can use the system to enter course outcomes. The user can assign a ranking to each course outcome. The local database maintains the information.;0
+24_srsv6-uji24;"Enter targeted competency: the general user can use the system to select one of two types of targeted competencies that can be used to automatically check progress toward achieving course outcomes the user can enter values associated with the different types. The user can enter a description of a targeted competency that can be used for manual checking. The local database maintains the information.";0
+24_srsv6-uji24;"Map entities: the general user can use the system to map course outcomes to program outcomes to map AIUs to course outcomes and to map course outcomes to targeted competencies. The local database maintains the information.";0
+24_srsv6-uji24;Define AIs: the general user can use the system to enter information related to an AI. For each instrument, the stored information includes such items as description, category, assessment instrument part (AIP) label and description, AIU label and description, AIU point value. For each student, the user can enter the points earned for each assessment unit. The local database maintains the information.;0
+24_srsv6-uji24;Modify AIs: the general user can use the system to modify information related to an AI. The local database maintains the information.;0
+24_srsv6-uji24;Enter grades: the general user can use the system to enter student grades related to an AI and to enter formulae for calculating grades. The local database maintains the information.;0
+24_srsv6-uji24;Archive course and student information: the general user can use the system to archive course and student information to the central database from the local database at the end of the semester.;0
+24_srsv6-uji24;Access the system: the general user can access the system through a unique login name and password.;0
+24_srsv6-uji24;Open course: the general user can select a course from the list of courses that s/he owns.;0
+24_srsv6-uji24;Set password - The user can set the password for accessing and entering information on the course.;0
+24_srsv6-uji24;Set property list – The user can set the property list that gives the login names for the users who can access a course.;0
+24_srsv6-uji24;Enter formula: the general user can define the formulas that will be used to calculate students’ grades on an AI, assessment category, or course.;0
+24_srsv6-uji24;The system will not be accessible to unauthorized users.;0
+24_srsv6-uji24;All data transmitted to the central database will be encrypted.;0
+24_srsv6-uji24;The system will be completed by the end of April 2001.;1
+24_srsv6-uji24;The university database is the Banner system.;1
+24_srsv6-uji24;Each professor has access to a desktop computer.;1
+24_srsv6-uji24;A table with login and password has been set up for each professor in the departments of the College of Engineering and is maintained in the local database.;0
+24_srsv6-uji24;The initial login and password for general users will be encrypted.;0
+24_srsv6-uji24;The timeframe to upload data to the central database is the day that grades are due to the university and one week before the start of the new semester.;0
+24_srsv6-uji24;Program outcomes that include ABET outcomes a-k and additional program outcomes are stored in the local database.;0
+24_srsv6-uji24;Once a student is dropped, the information associated with the student cannot be removed or modified.;0
+29_PDT-O7SRS-uji29;PHP IDE’s main user objective is to answer all PHP developer needs.;1
+29_PDT-O7SRS-uji29;A PHP project contains source code and related files for maintaining a PHP Application. A PHP project can be organized in two different ways using the project as the source container. Using source folders inside the project as the source container.;0
+29_PDT-O7SRS-uji29;"A wizard is available for creating a PHP project. The wizard can be access by the Project Wizard in eclipse (File>>New>>Project). In the Project Wizard there will be a project type named ""PHP Project"" that will launch the create PHP project wizard.";0
+29_PDT-O7SRS-uji29;When in the PHP perspective a Create PHP project wizard icon will be on the tool bar and a File>>New>>PHP Project will exist on the menu.;0
+29_PDT-O7SRS-uji29;PHP Version – The user should be able to choose between PHP4 and PHP5 and by that change all related components: code assist, syntax coloring and PHP functions.;0
+29_PDT-O7SRS-uji29;ASP tags support - support ASP tags as PHP tags for all PHP actions and parsing. The following tags will be supported.;0
+29_PDT-O7SRS-uji29;Default File Encoding – The project will support a default encoding that will be used for all files created in the project. Location – The location of the project. The default location when a project is created is the eclipse workspace. When a location is specified, any directory/file at that location will be part of the project. Only the developer’s data files will reside at the location. Eclipse internal project files will reside in a eclipse internal directory.;0
+29_PDT-O7SRS-uji29;The PHP project will support a properties menu item to display the properties of a project.;0
+29_PDT-O7SRS-uji29;Files can be added to a project by the following methods. Import from File System Drag and Drop.;0
+29_PDT-O7SRS-uji29;"Any file that is not added to a project using the ""New PHP file Wizard"" will be given the default file encoding of the project.";0
+29_PDT-O7SRS-uji29;A project can be saved, retrieved, and synchronized with a CVS repository. All the properties of the project and files in the project (encoding, version, etc) will be saved, retrieved, and synchronized with the repository.;0
+29_PDT-O7SRS-uji29;These are the menu items that affect a PHP project. There may be other items on the Project Menu because eclipse supports other types of projects. The Project Menu items vary based on the project selected.;0
+29_PDT-O7SRS-uji29;During typing the PHP inspector is run and highlighting of errors (a squiggly line under the code) occurs for the file. Errors detected during typing are not displayed in the problems view. The build options in the project menu determine when the eclipse builder is run. The eclipse builder is potentially a long running operation. Depending on the changes made, every file in the workspace could be rebuilt. Eclipse attempts to determine the files that have changed based on the project dependencies. The eclipse builder is run as a background task so that the developer can continue to work. Problems detected during the build phase will show up in the problems view and will be highlighted using a squiggly line under the code.;0
+29_PDT-O7SRS-uji29;When a project is closed, it can no longer be changed and its resources no longer appear in the Package Explorer, Project Outline View, etc. To re-open the project, select the project in the PHP Explorer View and click on Open Project. Eclipse doesn’t have a concept of .prj files.;0
+29_PDT-O7SRS-uji29;Following are the right click menu items for a project. Some of the menu items may be handled by the low level eclipse infrastructure and not require implementation by the PHP project. Other are open issues to be resolved, but are listed here since they will show up in the Menu unless some specific action is taken to turn them off.;0
+29_PDT-O7SRS-uji29;When a location is specified, any directory/file at that location will be part of the project. Only the developer’s data files will reside at the location. Eclipse internal project files will reside in a eclipse internal directory.;0
+29_PDT-O7SRS-uji29;The ability to create a PHP file with the following properties will be supported.;0
+29_PDT-O7SRS-uji29;A Local history of a file is maintained when you create or modify a file. Each time you edit and save a file, a copy of it is saved. This allows you to compare your current file state to a previous state, or replace the file with a previous state. Each state in the local history is identified by the date and time the file was saved.;0
+29_PDT-O7SRS-uji29;If the project is being maintained in CVS, the option to compare, replace, restore, etc the file from CVS will be supported. Anytime a PHP file is synchronized with a CVS repository, the properties of a file are transferred (encoding).;0
+29_PDT-O7SRS-uji29;The PHP Inspector is responsible for analyzing all PHP code files in an Eclipse Platform. The PHP inspector should inspect the following: PHP Elements. PHP classes – including the following data. File name. Positions. Modifier.;0
+29_PDT-O7SRS-uji29;This is the source of all PHP language classes, functions and constants. This data should come in the;0
+29_PDT-O7SRS-uji29;format of PHP files that can be editable.;1
+29_PDT-O7SRS-uji29;The file should be located as part of the plugin/installation directory in a lib directory.;0
+29_PDT-O7SRS-uji29;Two files should be included: phpFunctions4.php phpFunctions5.php;0
+29_PDT-O7SRS-uji29;Any change in these files will effect the following in all projects:;0
+29_PDT-O7SRS-uji29;PHP Editor should extend the Web Tools text editor and should inherit all its capabilities and actions. The PHP Editor should allow working on more then one programming language at the same time (PHP & HTML);0
+29_PDT-O7SRS-uji29;Syntax Coloring – PHP Editor should color several languages at the same time. The Syntax Coloring should be customizable through the Editor preferences.;0
+29_PDT-O7SRS-uji29;Should support both PHP 4 and PHP 5 (see PHP Project – PHP Version);0
+29_PDT-O7SRS-uji29;Should color: default text, keywords, variables, numbers, strings, herdocs,;0
+29_PDT-O7SRS-uji29;Single-line comments, Multi-line comments, PHP tags, function names.;1
+29_PDT-O7SRS-uji29;Supports both PHP 4 and PHP 5 (see PHP Project – PHP Version);0
+29_PDT-O7SRS-uji29;Support Auto Activate if possible and suitable for Eclipse (with size limit and time delay);0
+29_PDT-O7SRS-uji29;Suggests and completes classes, functions, variables, constants and keywords, PHPDoc tags, PHPDoc variables;0
+29_PDT-O7SRS-uji29;Shows function signature while calling the function.;0
+29_PDT-O7SRS-uji29;The PHP editor will have a wizard that will support the following search options Classes Functions Constants Variables.;0
+29_PDT-O7SRS-uji29;The scope of files searched can be limited to Workspace, Selected Resources, Enclosing Projects, and Working Set. When the search is completed the PHP will open a search view with the results. Files when opened in the editor will be annotated with the search result.;0
+29_PDT-O7SRS-uji29;Annotation is a piece of information attached to a certain region of a text document. Annotations are shown in a vertical ruler on the left side of the text, an overview ruler on the right side of the text, as a highlighted word or as colored squigglies underneath text. Annotations are largely dependent on the kind of document being edited.;0
+29_PDT-O7SRS-uji29;The editor will support moving to the next/previous annotations by icons on the Tool Bar and menu items. The editor will support the preferences set in annotation preference wizard supported by the Workbench.;0
+29_PDT-O7SRS-uji29;Quick Diff provides color-coded change indication while you are typing. When the mouse cursor is placed over a change in the vertical ruler, a hover displays the original content, which can be restored using the ruler's context menu. Quick Diff will support both local history and CVS.;0
+29_PDT-O7SRS-uji29;The PHP Editor will support the standard eclipse Key Bindings. Some examples are below.;0
+29_PDT-O7SRS-uji29;The Outline view displays a Tree representation of the contents of the editor that is currently visible in the editor area of the workbench. For PHP files, the Outline should display elements like classes, functions, variables, included files, and constants. It should optionally also display the content outside the PHP areas (ex. HTML, XML, CSS, JavaScript).;0
+29_PDT-O7SRS-uji29;Global Menus: Collapse all, Expand all, Show PHP/HTML;1
+29_PDT-O7SRS-uji29;PHP nodes: Add/Delete/Rename class, function, variable, included file, constant (in the long future);0
+29_PDT-O7SRS-uji29;Other content: Provide default behavior that is available on the other editors. For example, HTML content nodes should have the same context menu when in an HTML file.;0
+29_PDT-O7SRS-uji29;Selection: Selecting the Tree node in the Outline view highlights the represented element on the editor. This should also work in the other direction, meaning that the Outline view should highlight the node represented by the area under the editor’s caret.;0
+29_PDT-O7SRS-uji29;The Project Outline View is a new View to the Eclipse Platform. This View is very similar to the Outline;0
+29_PDT-O7SRS-uji29;View except that it should display the elements of the project correspondent to the opened file.;0
+29_PDT-O7SRS-uji29;All other functionality should be identical to the Outline View. This view is basically gathering of all Outline Views data of the entire project files. Similar to the Package Explorer from the JDT, the PHP Explorer shows the PHP element hierarchy of the PHP projects in the workbench. It provides a PHP-specific view of the resources shown in the Navigator.;0
+29_PDT-O7SRS-uji29;The element hierarchy is derived from the project's build paths.;0
+29_PDT-O7SRS-uji29;The PHP Explorer View will support using Working Set to determine the projects that are shown.;0
+29_PDT-O7SRS-uji29;The actions (right click menus) of the Explorer view are derived form the Project actions (appears in section 3.1 under Right Click Menu Items).;0
+29_PDT-O7SRS-uji29;"The Problems view should display all PHP errors and warnings. Should include ""include files"" problem (in the future). All errors and warnings will have a description, resource, folder, and location associated with them. Resource refers to the php file containing the problem. Folder refers to the directory containing the php file. Location will refer to the line number containing the problem.";0
+29_PDT-O7SRS-uji29;When a user clicks on a problem in the problems view, the php file containing the error or warning will be displayed in the editor.;0
+29_PDT-O7SRS-uji29;When a user clicks on a missing include file, a file wizard will appear to add the file to the project.;0
+29_PDT-O7SRS-uji29;Syntax Coloring – customized syntax highlighting for PHPDoc tags and their values (see Editor – Syntax Coloring).;0
+29_PDT-O7SRS-uji29;Inspection – The value of the following tags should be inspected: abstract, access, author, copyright, deprecated, example, exception, final, global, ignore, internal, link, magic, name, return, package, param, see, since, static, staticvar, subpackage, throws, todo, var and version.;0
+29_PDT-O7SRS-uji29;Code Assist – for the list of tags appears above there should be code assist as well.;0
+29_PDT-O7SRS-uji29;Adding description Outline view – right click action to add description to the selected data Project Outline View - right click action to add description to the selected data Code Assist – Button and shortcut to add description to the selected data in the list (if possible, will be added in future versions).;0
+29_PDT-O7SRS-uji29;In a document with PHP as well as other content (i.e. HTML), each content should have a Formatting strategy. The strategy for foreign content (i.e. HTML) should be the same as those provided by standalone editors. This section emphasized on the Formatting options for the PHP content and Doc areas.;0
+29_PDT-O7SRS-uji29;"Invocation: Formatting is initiated by either ""ctrl-shift F"" key combination of through menu. There should be both a global menu item and a context menu item.";0
+29_PDT-O7SRS-uji29;Default encoding for each project – will open file from the Explorer view with this encoding;0
+29_PDT-O7SRS-uji29;File chooser will include a list of all available encoding options with the default encoding selected.;0
+29_PDT-O7SRS-uji29;Saving file with a specific encoding or the default one.;0
+29_PDT-O7SRS-uji29;This is a Toolbar and Menu option similar to the JDT’s Open Type. The JDT’s version of Open Type is a dialog that allows the user to search for Classes and Interfaces and subsequently open the file that defines it. For PHP, this behavior will be extended for Classes, Functions, and Constants.;0
+29_PDT-O7SRS-uji29;View with all the PHP functions available in the language according to the PHP version defined in the edited file’s project (see PHP Functions – PHP Language Data).;0
+29_PDT-O7SRS-uji29;Open manual - with an explanation about the selected PHP function from the list.;0
+29_PDT-O7SRS-uji29;Short description - in a tool tip about the function and its arguments;1
+29_PDT-O7SRS-uji29;Adding - the function to the edited file.;1
+29_PDT-O7SRS-uji29;This view is an offline view of the PHP Manual (http://www.php.net/download-docs.php). The PHP IDE should be customizable to work with any downloaded version of the PHP Manual (should support different languages). The manual control will be supported by extension point to add new manuals from different sites.;0
+29_PDT-O7SRS-uji29;"The view should support: Quick link from the editor depends on the caret location and the relevant function Link from the PHP functions list;";0
+29_PDT-O7SRS-uji29;In eclipse, Perspectives define the initial set and layout of views in the Workbench window. A Perspective provides a set of functionality aimed at accomplishing a specific type of task or working with specific types of resources;0
+29_PDT-O7SRS-uji29;"The PHP perspective will include the following views: PHP Explorer View Outline View Editor View Project Outline View Problems View PHP Manual View (if possible with embedded browser problem) PHP Functions View Search View (after the first search);";0
+29_PDT-O7SRS-uji29;The PHP perspective will save state (views, files opened, etc) when closed. And reopen to the same state. The PHP perspective will support customization through the Customize Perspective wizard. The customized perspective can be saved under a user specified named. It is possible for a developer to have multiple PHP perspectives with different customizations each with its own name. The PHP perspective will also support resetting the perspective back to the default settings.;0
+29_PDT-O7SRS-uji29;"The Debug Perspective will present the user with common debugging tasks. There will be toolbar buttons to stop, pause, and start execution. The perspective will contain the following views;";0
+29_PDT-O7SRS-uji29;"Gather all TODO tasks from the entire PHP project files to a complete list (as it is today). The List should appear next to the Problems View. TODO task should start with ""TODO"".";0

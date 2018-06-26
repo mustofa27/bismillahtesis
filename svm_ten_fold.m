@@ -1,5 +1,11 @@
 k=10;
-newData = csvread('dataset.csv');
+%newData = csvread('dataset.csv');
+%newData = VectorFiturTranslate;
+%newData = VectorFitur;
+a = VectorFiturNew(VectorFiturNew(:, 4) == 1, :);
+b = VectorFiturNew(VectorFiturNew(:, 4) == 0, :);
+a_smote = smote(a, 200, 20);
+newData = [a_smote;b];
 newDataset = [newData(:,1) newData(:,2) newData(:,3)];
 newGroup = newData(:,4);
 %newDataset = Dataset;
@@ -32,6 +38,8 @@ SMOSIGMA1 = cp.CorrectRate
 %# get confusion matrix
 %# columns:actual, rows:predicted, last-row: unclassified instances
 SMOSIGMA1mat = cp.CountingMatrix
+SMOsigmaRecall = SMOSIGMA1mat(2,2) / (SMOSIGMA1mat(2,2) + SMOSIGMA1mat(2,1))
+SMOsigmaPrecision = SMOSIGMA1mat(2,2) / (SMOSIGMA1mat(2,2) + SMOSIGMA1mat(1,2))
 toc;
 tic;
 cp2 = classperf(newGroup);
@@ -57,6 +65,8 @@ SMOlinear = cp2.CorrectRate
 %# get confusion matrix
 %# columns:actual, rows:predicted, last-row: unclassified instances
 SMOlinearmat = cp2.CountingMatrix
+SMOlinearRecall = SMOlinearmat(2,2) / (SMOlinearmat(2,2) + SMOlinearmat(2,1))
+SMOlinearPrecision = SMOlinearmat(2,2) / (SMOlinearmat(2,2) + SMOlinearmat(1,2))
 toc;
 tic;
 cp3 = classperf(newGroup);
@@ -82,6 +92,8 @@ SMOquadratic = cp3.CorrectRate
 %# get confusion matrix
 %# columns:actual, rows:predicted, last-row: unclassified instances
 SMOquadraticmat = cp3.CountingMatrix
+SMOquadraticRecall = SMOquadraticmat(2,2) / (SMOquadraticmat(2,2) + SMOquadraticmat(2,1))
+SMOquadraticPrecision = SMOquadraticmat(2,2) / (SMOquadraticmat(2,2) + SMOquadraticmat(1,2))
 toc;
 tic;
 cp4 = classperf(newGroup);
@@ -107,4 +119,6 @@ SMOpoly = cp4.CorrectRate
 %# get confusion matrix
 %# columns:actual, rows:predicted, last-row: unclassified instances
 SMOpolymat = cp4.CountingMatrix
+SMOpolyRecall = SMOpolymat(2,2) / (SMOpolymat(2,2) + SMOpolymat(2,1))
+SMOpolyPrecision = SMOpolymat(2,2) / (SMOpolymat(2,2) + SMOpolymat(1,2))
 toc;

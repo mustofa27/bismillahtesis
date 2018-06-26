@@ -1,0 +1,12 @@
+Nama File;Requirement Statement;Noise?
+3_ReqSpec_uji3;The subsystem shall be displayed in a web page;0
+3_ReqSpec_uji3;The subsystem shall use normal Hypertext Markup Language (HTML).;0
+3_ReqSpec_uji3;The subsystem shall consist of two separate pages.;1
+3_ReqSpec_uji3;One subsystem page shall contain the Java Applet which operates the Java Applet Subsystem.;0
+3_ReqSpec_uji3;The Main Page shall display instructions for proper use of the Java Applet.;0
+3_ReqSpec_uji3;A second subsystem page shall contain information about the different temperature scales, their history, and equivalent calculations or conversions.;0
+3_ReqSpec_uji3;The subsystem shall make use of the Java Virtual Machine (JVM) that is resident on the computer on which the application is being used.;0
+3_ReqSpec_uji3;The subsystem shall consist of a main panel and two sub-panel types.;0
+3_ReqSpec_uji3;The main panel shall contain instances of the sub-panels.;0
+3_ReqSpec_uji3;One sub-panel shall contain controls for input and display for a single temperature scale.;0
+3_ReqSpec_uji3;One sub-panel shall contain two controls; one to clear all the values in the other sub-panels, and a second to display the other page in the Web Page Subsystem.;0
