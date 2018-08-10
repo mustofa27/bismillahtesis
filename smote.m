@@ -23,7 +23,7 @@ function X_smote = smote(X, N, k)
 
     N = ceil(N / 100);
 
-    X_smote = X;
+    X_smote = [];
     for i = 1:T
         y = X(i,:);
         % find k-nearest samples

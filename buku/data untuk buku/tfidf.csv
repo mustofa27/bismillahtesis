@@ -1,0 +1,8 @@
+,check,credit,balance,usage,history
+check his credit balance,1,1,1,0,0
+check his usage history ,1,0,0,1,1
+,2,1,1,1,1
+idf,0,0.693147181,0.693147181,0.693147181,0.693147181
+,,,,,
+check his credit balance,0,0.693147181,0.693147181,0,0
+check his usage history ,0,0,0,0.693147181,0.693147181

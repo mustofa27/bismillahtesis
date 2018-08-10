@@ -1,0 +1,13 @@
+Pak Darlis
+1. Lembar persetujuan, Dir Paska? (done)
+2. Abstrak paragraf 3 + hasil uji coba (done)
+
+Pak Hari
+1. Petakan hasil deteksi derau terhadap gambar 4.1 (done)
+2. Jelaskan analisis atas "proses" yang dikerjakan serta pengujian metoda untuk hal yang lain  (done)
+
+Pak Ryan
+1. Jelaskan apa penyebab perilaku akurasi dan f measure beda? (done)
+2. Fitur statistik yang signifikan ? (done)
+3. Jelaskan reasoning FP dan FN (done)
+4. Beri contoh 1 dokumen yang mengandung fp dan fn (done)

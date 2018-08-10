@@ -28,7 +28,7 @@ if __name__ == '__main__':
     totalData = 0
     # with open("../raw/VectorFiturTranslate.csv", "wb") as csv_file:
     # with open("../raw/VectorFitur.csv", "wb") as csv_file:
-    with open("../raw/VectorFiturNew.csv", "wb") as csv_file:
+    with open("../raw/tfidf.csv", "wb") as csv_file:
         writer = csv.writer(csv_file, delimiter=',', dialect='excel')
         for nfile in dataset :
             sumNoise = 0
@@ -43,9 +43,19 @@ if __name__ == '__main__':
             totalNoise = totalNoise + sumNoise
             print sumNoise
             print sumData
-            fiturs = dokumen.getFitur()
-            for fitur in fiturs :
-                writer.writerow(fitur)
+            dokumen.getFitur()
+            # fiturs = dokumen.similarity
+            # for fitur in fiturs :
+            #     writer.writerow(fitur)
+            for fitur in dokumen.token :
+                writer.writerow(dokumen.token)
+            fiturs = dokumen.matrix.todense()
+            for j in range(0, dokumen.size) :
+                tmp = fiturs[j].tolist()
+                writer.writerow(tmp)
+            # fiturs = dokumen.getFitur()
+            # for fitur in fiturs :
+            #     writer.writerow(fitur)
     print "----DONE----"
     print totalNoise
     print totalData

@@ -1,0 +1,24 @@
+hasil uji coba :
+skenario 1
+	using jaccard similarity : acc = 80.25 presisi = 28.57, recall = 63.41 f1 measure = 
+	using cosine similarity : acc = 81.48 presisi = 31.11, recall = 68.29
+skenario 2
+	using 3 feature : acc = 81.48 presisi = 31.11, recall = 68.29
+	using 5 feature : acc = 81.23 presisi = 30.34, recall = 65.85
+	using 4 (add var) : acc = 81.48 presisi = 30.68, recall = 65.85
+	using 4 (add min) : acc = 80.99 presisi = 30, recall = 65.85
+skenario 3
+	using svm : acc = 81.48 presisi = 31.11, recall = 68.29
+	using nn : acc = 90.12 presisi = 55.56, recall = 12.20
+	using knn : acc = 88.15 presisi = 31.58, recall = 14.63
+	hitung balance atau f measure, tn prosentase, tp prosentase bab 2 diganti
+skenario 4
+	derau 10.12 % : acc = 81.48 presisi = 31.11, recall = 68.29
+	derau 18.38 % : acc = 82.96 presisi = 52.46, recall = 78.05
+	derau 25.25 % : acc = 80.29 presisi = 58.60, recall = 74.80
+	derau 31.06 % : acc = 81.44 presisi = 67.55, recall = 77.44
+	derau 36.02 % : acc = 80.14 presisi = 70.72, recall = 76.59
+	derau 43.27 % : acc = 79.34 presisi = 73.44, recall = 76.42
+	derau 44.08 % : acc = 78.49 presisi = 76.16, recall = 74.56
+	derau 47.39 % : acc = 78.61 presisi = 78.85, recall = 75.00
+	derau 50.34 % : acc = 78.85 presisi = 81.47, recall = 75.07

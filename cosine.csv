@@ -1,0 +1,405 @@
+1_libra_srs-uji1,submit job associ deadlin cost execut time,0.107318632,0.315328639,0.119885433,0,0.014372517,0
+1_libra_srs-uji1,queri cluster establish current cost per unit time submit new job,0.118678669,0.315328639,0.091420964,0,0.008357793,0
+1_libra_srs-uji1,monitor statu submit job,0.153262414,0.672703572,0.201461311,0,0.04058666,0
+1_libra_srs-uji1,cancel job submit,0.153132522,0.505714356,0.195761874,0,0.038322711,0
+1_libra_srs-uji1,check credit balanc,0.06204108,0.169042852,0.074183726,0,0.005503225,1
+1_libra_srs-uji1,check usag histori,0.120293029,0.75987155,0.208427616,0,0.043442071,0
+1_libra_srs-uji1,check statu node cluster,0.197603362,0.642160043,0.192278542,0,0.036971038,0
+1_libra_srs-uji1,check usag pattern histori cluster,0.151342355,0.75987155,0.2029778,0,0.041199987,0
+1_libra_srs-uji1,check statu submit job,0.242700196,0.672703572,0.195241844,0,0.038119378,0
+1_libra_srs-uji1,check load node cluster,0.13933578,0.642160043,0.169914457,0,0.028870923,0
+1_libra_srs-uji1,alter cost structur cluster,0.093129001,0.375674588,0.112111824,0,0.012569061,0
+1_libra_srs-uji1,alter schedul polici cluster,0.066836194,0.375674588,0.106319953,0,0.011303932,0
+1_libra_srs-uji1,cancel suspend resum job,0.077150232,0.505714356,0.139230831,0,0.019385224,0
+24_srsv6-uji24,manag cours inform gener user use system enter modifi cours inform local databas maintain inform,0.22015898,0.640050488,0.178903133,0,0.032006331,0
+24_srsv6-uji24,manag student inform gener user use system enter modifi student inform download student inform univers databas addit user delet student cours local databas maintain inform,0.200904313,0.640050488,0.169023111,0,0.028568812,0
+24_srsv6-uji24,enter outcom gener user use system enter cours outcom user assign rank cours outcom local databas maintain inform,0.190621189,0.517140541,0.150519287,0,0.022656056,0
+24_srsv6-uji24,enter target compet gener user use system select one two type target compet use automat check progress toward achiev cours outcom user enter valu associ differ type user enter descript target compet use manual check local databas maintain inform,0.121273409,0.328825049,0.091721501,0,0.008412834,0
+24_srsv6-uji24,map entiti gener user use system map cours outcom program outcom map aiu cours outcom map cours outcom target compet local databas maintain inform,0.123311459,0.517140541,0.132665126,0,0.017600036,0
+24_srsv6-uji24,defin ai gener user use system enter inform relat ai instrument store inform includ item descript categori assess instrument part aip label descript aiu label descript aiu point valu student user enter point earn assess unit local databas maintain inform,0.118873523,0.33253352,0.105010115,0,0.011027124,0
+24_srsv6-uji24,modifi ai gener user use system modifi inform relat ai local databas maintain inform,0.161665004,0.586719803,0.145529344,0,0.02117879,0
+24_srsv6-uji24,enter grade gener user use system enter student grade relat ai enter formula calcul grade local databas maintain inform,0.162152359,0.613804217,0.150411132,0,0.022623509,0
+24_srsv6-uji24,archiv cours student inform gener user use system archiv cours student inform central databas local databas end semest,0.175675085,0.527344727,0.120574259,0,0.014538152,0
+24_srsv6-uji24,access system gener user access system uniqu login name password,0.127190829,0.456503411,0.12101586,0,0.014644838,0
+24_srsv6-uji24,open cours gener user select cours list cours own,0.092519533,0.306326379,0.099369688,0,0.009874335,0
+24_srsv6-uji24,set password user set password access enter inform cours,0.144120767,0.397107116,0.118717869,0,0.014093932,0
+24_srsv6-uji24,set properti list user set properti list give login name user access cours,0.089803207,0.397107116,0.105783799,0,0.011190212,0
+24_srsv6-uji24,enter formula gener user defin formula use calcul student grade ai assess categori cours,0.121395583,0.613804217,0.136415082,0,0.018609075,0
+24_srsv6-uji24,system access unauthor user,0.089393866,0.456503411,0.095453017,0,0.009111279,0
+24_srsv6-uji24,data transmit central databas encrypt,0.044231501,0.258355641,0.07158883,0,0.005124961,0
+24_srsv6-uji24,system complet end april,0.028958654,0.166477062,0.041385556,0,0.001712764,1
+24_srsv6-uji24,univers databas banner system,0.062170473,0.19838302,0.055647889,0,0.003096688,1
+24_srsv6-uji24,professor access desktop comput,0.032514917,0.215610889,0.066613189,0,0.004437317,1
+24_srsv6-uji24,tabl login password set professor depart colleg engin maintain local databas,0.081497623,0.354963182,0.085334828,0,0.007282033,0
+24_srsv6-uji24,initi login password gener user encrypt,0.084984024,0.331210371,0.091972384,0,0.008458919,0
+24_srsv6-uji24,timefram upload data central databas day grade due univers one week start new semest,0.045290616,0.258355641,0.070511785,0,0.004971912,0
+24_srsv6-uji24,program outcom includ abet outcom addit program outcom store local databas,0.064042414,0.457779101,0.121698654,0,0.014810562,0
+24_srsv6-uji24,student drop inform associ student cannot remov modifi,0.069687611,0.451474457,0.112273295,0,0.012605293,0
+18_SoftwareRequirementsSpecification-uji18,product provid member onlin block book capabl onlin librari system run day,0.102552982,0.44667155,0.102006297,0,0.010405285,0
+18_SoftwareRequirementsSpecification-uji18,system provid logon facil user,0.064987645,0.624677526,0.092482952,0,0.008553096,0
+18_SoftwareRequirementsSpecification-uji18,system provid member option check account chang option like password account whenev need day librari hour,0.049939532,0.34478041,0.061048608,0,0.003726933,0
+18_SoftwareRequirementsSpecification-uji18,system allow member block book hour day semest,0.063714855,0.405139663,0.095747345,0,0.009167554,0
+18_SoftwareRequirementsSpecification-uji18,system let librari staff check member block book whether borrow book,0.06349034,0.350671828,0.08955311,0,0.008019759,0
+18_SoftwareRequirementsSpecification-uji18,system allow librarian creat book catalog add delet book maintain book catalog,0.055139935,0.715564975,0.112505314,0,0.012657446,0
+18_SoftwareRequirementsSpecification-uji18,system updat bill system member borrow return book,0.077298144,0.511382972,0.106093786,0,0.011255891,0
+18_SoftwareRequirementsSpecification-uji18,book catalog autom decis offer book base categori book automat decid,0.033400278,0.408382858,0.08069763,0,0.006512108,0
+18_SoftwareRequirementsSpecification-uji18,also order depart manag add remov book librari,0.035110363,0.248494414,0.051232742,0,0.002624794,0
+18_SoftwareRequirementsSpecification-uji18,member provid updat inform book catalog,0.070667298,0.440198857,0.107416522,0,0.011538309,0
+18_SoftwareRequirementsSpecification-uji18,provis member borrow book want requir rule hold good,0.032246236,0.259949988,0.066107133,0,0.004370153,0
+18_SoftwareRequirementsSpecification-uji18,member given provis check account inform chang account inform time given valid period,0.029084342,0.34478041,0.057692652,0,0.003328442,1
+18_SoftwareRequirementsSpecification-uji18,member provid book avail roster allow choos book want use come day,0.067979099,0.370755486,0.087793764,0,0.007707745,0
+18_SoftwareRequirementsSpecification-uji18,librarian get inform member borrow return book,0.054069128,0.511382972,0.099904597,0,0.009980929,0
+18_SoftwareRequirementsSpecification-uji18,librarian provid interfac add delet book avail book catalog,0.066992004,0.715564975,0.113155679,0,0.012804208,0
+18_SoftwareRequirementsSpecification-uji18,member complet book borrow return process due paid member must calcul inform member due amount sent univers bill system,0.0588416,0.457443487,0.090836887,0,0.00825134,0
+18_SoftwareRequirementsSpecification-uji18,system use univers inform secur requir provid login facil user,0.079188756,0.472416326,0.083409172,0,0.00695709,0
+18_SoftwareRequirementsSpecification-uji18,inform user must store databas access onlin librari system,0.086005359,0.438585448,0.084151729,0,0.007081514,0
+18_SoftwareRequirementsSpecification-uji18,univers inform secur system must compat internet applic,0.058781482,0.379628594,0.083825447,0,0.007026706,1
+18_SoftwareRequirementsSpecification-uji18,onlin librari system connect univers comput run hour day,0.076098575,0.44667155,0.101774768,0,0.010358103,0
+18_SoftwareRequirementsSpecification-uji18,user access onlin librari system comput internet brows capabl internet connect,0.082226445,0.707444889,0.109210963,0,0.011927034,1
+18_SoftwareRequirementsSpecification-uji18,bill system connect onlin librari system databas use bill system must compat interfac onlin librari system,0.105550368,0.438585448,0.103255128,0,0.010661621,0
+18_SoftwareRequirementsSpecification-uji18,user must correct usernam password enter onlin librari system,0.056796844,0.310293115,0.061932747,0,0.003835665,0
+18_SoftwareRequirementsSpecification-uji18,user suffici knowledg comput,0.024075041,0.206139621,0.044512356,0,0.00198135,1
+18_SoftwareRequirementsSpecification-uji18,univers comput internet connect internet server capabl,0.043349509,0.707444889,0.105708612,0,0.011174311,0
+18_SoftwareRequirementsSpecification-uji18,user know english languag user interfac provid english,0.041115419,0.305035081,0.05859666,0,0.003433569,0
+18_SoftwareRequirementsSpecification-uji18,product access univers student databas,0.025567129,0.328880414,0.061016882,0,0.00372306,0
+18_SoftwareRequirementsSpecification-uji18,system shall provid user logon capabl,0.08366194,0.624677526,0.100385076,0,0.010077164,0
+18_SoftwareRequirementsSpecification-uji18,onlin librari system also support mobil devic cell phone,0.053860505,0.340521423,0.065624464,0,0.00430657,0
+18_SoftwareRequirementsSpecification-uji18,system alert librarian administr case problem,0.025100467,0.266919821,0.041711225,0,0.001739826,0
+18_SoftwareRequirementsSpecification-uji18,system shall allow user access system internet use html deriv technolog,0.080392047,0.3382903,0.068723095,0,0.004722864,0
+18_SoftwareRequirementsSpecification-uji18,system use web browser interfac,0.054387842,0.41819982,0.074655019,0,0.005573372,0
+18_SoftwareRequirementsSpecification-uji18,sinc user familiar gener usag browser specif train requir,0.022242759,0.17844475,0.039210643,0,0.001537475,1
+18_SoftwareRequirementsSpecification-uji18,system user friendli self explanatori,0.03335373,0.120634784,0.034156984,0,0.0011667,0
+18_SoftwareRequirementsSpecification-uji18,system reliabl due import data damag incorrect incomplet data,0.019101712,0.221798102,0.037771352,0,0.001426675,0
+18_SoftwareRequirementsSpecification-uji18,system avail user use hr day day year,0.063958469,0.426254411,0.072649341,0,0.005277927,0
+18_SoftwareRequirementsSpecification-uji18,system shall oper hour day day week,0.044017162,0.426254411,0.079709466,0,0.006353599,0
+18_SoftwareRequirementsSpecification-uji18,system develop way may fail year,0.025536354,0.207648601,0.037586739,0,0.001412763,0
+18_SoftwareRequirementsSpecification-uji18,even system fail system recov back within hour less,0.035586325,0.201119432,0.042845169,0,0.001835708,0
+18_SoftwareRequirementsSpecification-uji18,accuraci system limit accuraci speed employe librari user librari use system,0.062748372,0.259061551,0.056501611,0,0.003192432,0
+18_SoftwareRequirementsSpecification-uji18,system shall provid access reliabl,0.068678297,0.329340755,0.076517928,0,0.005854993,0
+18_SoftwareRequirementsSpecification-uji18,splash page inform page abl download within minut use modem,0.023615218,0.259021256,0.045126575,0,0.002036408,0
+18_SoftwareRequirementsSpecification-uji18,inform refresh everi two minut,0.020486396,0.220210065,0.049781224,0,0.00247817,0
+18_SoftwareRequirementsSpecification-uji18,access time mobil devic less minut,0.031080126,0.340521423,0.071116916,0,0.005057616,0
+18_SoftwareRequirementsSpecification-uji18,system shall respond member less two second time request submitt,0.042962566,0.265523322,0.05364987,0,0.002878309,0
+18_SoftwareRequirementsSpecification-uji18,system shall allow take time larg process job,0.040630764,0.31744439,0.059961175,0,0.003595342,0
+18_SoftwareRequirementsSpecification-uji18,system shall take less time possibl provid servic administr librarian,0.058202892,0.31744439,0.072014999,0,0.00518616,0
+18_SoftwareRequirementsSpecification-uji18,number transact directli depend number user user may librarian employe librari also peopl use librari check book return book check onlin librari account,0.077208459,0.284632295,0.069244835,0,0.004794847,0
+18_SoftwareRequirementsSpecification-uji18,system capabl handl user time,0.05525454,0.3782134,0.064595628,0,0.004172595,0
+18_SoftwareRequirementsSpecification-uji18,resourc modifi accord user requir also accord book request user,0.04190483,0.15743228,0.047052242,0,0.002213913,0
+18_SoftwareRequirementsSpecification-uji18,system design shall take consider follow support technic limit,0.032299699,0.207514623,0.050900765,0,0.002590888,1
+18_SoftwareRequirementsSpecification-uji18,system shall compli tcp ip protocol standard shall design accordingli,0.033388216,0.204204853,0.053835729,0,0.002898286,0
+18_SoftwareRequirementsSpecification-uji18,system shall support uhcl inform secur requir use standard uhcl inform secur requir,0.04892909,0.472416326,0.068704338,0,0.004720286,0
+18_SoftwareRequirementsSpecification-uji18,member balanc amount calcul sent bill system shall compat data type design constraint bill system,0.047953783,0.387764414,0.071938045,0,0.005175082,0
+18_SoftwareRequirementsSpecification-uji18,mainten system shall done per mainten contract,0.025793117,0.3080492,0.042647336,0,0.001818795,0
+18_SoftwareRequirementsSpecification-uji18,code standard name convent per american standard,0.009541604,0.210857373,0.036827082,0,0.001356234,0
+18_SoftwareRequirementsSpecification-uji18,languag shall use code onlin librari system activ server page asp java servlet java server page jsp html javascript vbscript,0.059710106,0.481168113,0.0852178,0,0.007262073,0
+18_SoftwareRequirementsSpecification-uji18,work code phase onlin librari system internet inform servic ii server need instal,0.066714455,0.359686621,0.071911426,0,0.005171253,0
+18_SoftwareRequirementsSpecification-uji18,make use avail java develop tool kit work java bean java server page,0.031582786,0.481168113,0.076384236,0,0.005834552,0
+18_SoftwareRequirementsSpecification-uji18,also make use onlin refer avail develop program asp html two script languag javascript vbscript,0.048572828,0.603596279,0.083855476,0,0.007031741,0
+18_SoftwareRequirementsSpecification-uji18,make use exist java librari avail jsp servlet,0.045736876,0.441541744,0.080709033,0,0.006513948,0
+18_SoftwareRequirementsSpecification-uji18,also need develop new librari web base applic,0.0467248,0.350462681,0.06559204,0,0.004302316,0
+18_SoftwareRequirementsSpecification-uji18,also develop new program use asp script languag,0.035767188,0.603596279,0.081393507,0,0.006624903,0
+18_SoftwareRequirementsSpecification-uji18,onlin help provid featur avail onlin librari system,0.088186241,0.724381525,0.115166107,0,0.013263232,0
+18_SoftwareRequirementsSpecification-uji18,applic provid line help system assist user,0.055295711,0.345559837,0.06638599,0,0.0044071,0
+18_SoftwareRequirementsSpecification-uji18,natur system uniqu applic develop combin aspect program hyperlink etc aspect technic write organ present,0.016851368,0.149920223,0.029943515,0,0.000896614,1
+18_SoftwareRequirementsSpecification-uji18,onlin help provid everi featur provid system,0.065890525,0.724381525,0.103649906,0,0.010743303,0
+18_SoftwareRequirementsSpecification-uji18,user manual describ use system librarian employe,0.061078933,0.461338234,0.071809118,0,0.005156549,0
+18_SoftwareRequirementsSpecification-uji18,describ use system mobil system,0.063424426,0.461338234,0.070736745,0,0.005003687,0
+18_SoftwareRequirementsSpecification-uji18,user manual avail hard copi also onlin help,0.049754134,0.391291373,0.06712548,0,0.00450583,0
+18_SoftwareRequirementsSpecification-uji18,instal document provid includ instal instruct configur guidelin import full solut offer,0.020343447,0.325927107,0.047697364,0,0.002275039,0
+18_SoftwareRequirementsSpecification-uji18,also read file typic includ standard compon,0.018315109,0.29906304,0.049304458,0,0.00243093,0
+18_SoftwareRequirementsSpecification-uji18,read includ new releas section discuss compat issu earlier releas,0.008948214,0.191992231,0.030362724,0,0.000921895,0
+18_SoftwareRequirementsSpecification-uji18,user also appreci document defin known bug workaround read file,0.022114041,0.29906304,0.041243439,0,0.001701021,0
+18_SoftwareRequirementsSpecification-uji18,sinc instal onlin librari system complex process expert,0.049068993,0.211451799,0.059672352,0,0.00356079,0
+18_SoftwareRequirementsSpecification-uji18,instal guid provid user,0.046484737,0.325927107,0.070324446,0,0.004945528,0
+18_SoftwareRequirementsSpecification-uji18,system administr need purchas licens ii server,0.038002518,0.624648003,0.083315369,0,0.006941451,0
+18_SoftwareRequirementsSpecification-uji18,mostli avail window environ,0.00914199,0.123405123,0.02891967,0,0.000836347,1
+18_SoftwareRequirementsSpecification-uji18,system need purchas licens product,0.035022386,0.624648003,0.076889139,0,0.00591194,1
+18_SoftwareRequirementsSpecification-uji18,make use exist web browser microsoft internet explor netscap,0.030662983,0.41819982,0.066962007,0,0.00448391,0
+18_SoftwareRequirementsSpecification-uji18,user interfac system shall design shown user interfac prototyp,0.057921228,0.333201945,0.071044711,0,0.005047351,0
+18_SoftwareRequirementsSpecification-uji18,exist local area network lan use collect data user also updat librari catalogu,0.041840634,0.183769404,0.043466696,0,0.001889354,0
+18_SoftwareRequirementsSpecification-uji18,firewal use server prevent unauthor access system,0.040262462,0.198532829,0.047621104,0,0.00226777,0
+18_SoftwareRequirementsSpecification-uji18,onlin librari system connect world wide web,0.055141161,0.329966154,0.074372807,0,0.005531314,0
+18_SoftwareRequirementsSpecification-uji18,usag restrict univers houston clearlak librari purchas onlin librari system librari infosi sign mainten contract,0.055371853,0.313152672,0.073027666,0,0.00533304,0
+18_SoftwareRequirementsSpecification-uji18,onlin librari system trademark librari infosi cannot use without consent,0.054996443,0.313152672,0.067815999,0,0.00459901,0
+7_16hlmnExemplu_cerinte_software -uji7.doc,user see detail inform sgp,0.129154649,0.272444219,0.091345339,0.052243858,0.008343971,0
+7_16hlmnExemplu_cerinte_software -uji7.doc,user appli sgp,0.165061646,0.300536064,0.099622803,0.077368076,0.009924703,0
+7_16hlmnExemplu_cerinte_software -uji7.doc,user applic updat form sgp,0.22329533,0.300536064,0.087283492,0.063402371,0.007618408,0
+7_16hlmnExemplu_cerinte_software -uji7.doc,user updat person data,0.114000824,0.295300901,0.091327402,0.059134701,0.008340694,0
+7_16hlmnExemplu_cerinte_software -uji7.doc,user upload applic relat document,0.09981323,0.254296203,0.077722479,0.052243858,0.006040784,0
+7_16hlmnExemplu_cerinte_software -uji7.doc,user perform psycholog test,0.065414997,0.085116363,0.010426449,0.056023311,0.000108711,1
+12_15hlmnSRS4.0_uji12,system shall display detail product categor user,0.091338903,0.431418268,0.073727815,0,0.005435791,0
+12_15hlmnSRS4.0_uji12,system shall enabl user enter search text screen,0.072707181,0.534076711,0.09781466,0,0.009567708,0
+12_15hlmnSRS4.0_uji12,system shall enabl user select multipl option screen search,0.081201341,0.534076711,0.097658703,0,0.009537222,0
+12_15hlmnSRS4.0_uji12,system shall display match product base search,0.076861218,0.535185253,0.083424223,0,0.006959601,0
+12_15hlmnSRS4.0_uji12,system shall display match result current screen,0.059667365,0.369839576,0.075676402,0,0.005726918,0
+12_15hlmnSRS4.0_uji12,system shall enabl user navig search result,0.068012345,0.408164391,0.079865815,0,0.006378548,0
+12_15hlmnSRS4.0_uji12,system shall notifi user match product found search,0.072218749,0.535185253,0.076917262,0,0.005916265,0
+12_15hlmnSRS4.0_uji12,system shall allow user creat profil set credenti,0.06594247,0.45198232,0.075299099,0,0.005669954,0
+12_15hlmnSRS4.0_uji12,system shall authent user credenti view profil,0.059766445,0.45198232,0.069347611,0,0.004809091,0
+12_15hlmnSRS4.0_uji12,system shall allow user updat profil inform,0.097544622,0.39452955,0.099726652,0,0.009945405,0
+12_15hlmnSRS4.0_uji12,system shall display activ complet order histori custom profil,0.075558621,0.439526731,0.074327089,0,0.005524516,0
+12_15hlmnSRS4.0_uji12,system shall allow user select order order histori,0.109981539,0.655938087,0.135790447,0,0.018439045,0
+12_15hlmnSRS4.0_uji12,system shall display detail inform select order,0.109729843,0.54742748,0.123137456,0,0.015162833,0
+12_15hlmnSRS4.0_uji12,system shall display frequent search item user profil,0.075081748,0.276018584,0.065630178,0,0.00430732,0
+12_15hlmnSRS4.0_uji12,system shall allow user regist newslett survey profil,0.062519778,0.344249005,0.065666791,0,0.004312127,0
+12_15hlmnSRS4.0_uji12,system shall provid onlin help faq custom support sitemap option custom support,0.073855689,0.401681103,0.087544223,0,0.007663991,0
+12_15hlmnSRS4.0_uji12,system shall allow user select support type want,0.086114193,0.387847331,0.093118273,0,0.008671013,0
+12_15hlmnSRS4.0_uji12,system shall allow user enter custom product inform support,0.128106042,0.578597052,0.113596842,0,0.012904243,0
+12_15hlmnSRS4.0_uji12,system shall display custom support contact number screen,0.078171313,0.507083126,0.08648012,0,0.007478811,0
+12_15hlmnSRS4.0_uji12,system shall allow user enter contact number support personnel call,0.070729886,0.507083126,0.085421085,0,0.007296762,0
+12_15hlmnSRS4.0_uji12,system shall display onlin help upon request,0.062183263,0.629039791,0.083659791,0,0.006998961,0
+12_15hlmnSRS4.0_uji12,system shall display faq upon request,0.058977338,0.629039791,0.076391386,0,0.005835644,0
+12_15hlmnSRS4.0_uji12,system shall maintain custom email inform requir part custom profil,0.062269407,0.313631972,0.07435185,0,0.005528198,0
+12_15hlmnSRS4.0_uji12,system shall send order confirm user email,0.071687313,0.367997411,0.073944983,0,0.005467861,0
+12_15hlmnSRS4.0_uji12,system shall display detail invoic current order confirm,0.076866286,0.475535586,0.09704308,0,0.009417359,0
+12_15hlmnSRS4.0_uji12,system shall option allow user print invoic,0.076154667,0.423492099,0.077610963,0,0.006023462,0
+12_15hlmnSRS4.0_uji12,system shall provid shop cart onlin purchas,0.050768529,0.441417705,0.06731514,0,0.004531328,0
+12_15hlmnSRS4.0_uji12,system shall allow user add remov product shop cart,0.066875151,0.441417705,0.065768127,0,0.004325447,0
+12_15hlmnSRS4.0_uji12,system shall display differ ship option provid ship depart,0.066794714,0.456081398,0.083047374,0,0.006896866,0
+12_15hlmnSRS4.0_uji12,system shall enabl user select ship method payment process,0.089868171,0.600182264,0.125975591,0,0.01586985,0
+12_15hlmnSRS4.0_uji12,system shall display ship charg,0.069377082,0.456081398,0.079624162,0,0.006340007,0
+12_15hlmnSRS4.0_uji12,system shall display tent durat ship,0.056879664,0.384785722,0.067559952,0,0.004564347,0
+12_15hlmnSRS4.0_uji12,system shall allow user enter order inform track,0.114017172,0.617758074,0.132258694,0,0.017492362,0
+12_15hlmnSRS4.0_uji12,system shall display current track inform order,0.090005478,0.617758074,0.113025306,0,0.01277472,0
+12_15hlmnSRS4.0_uji12,system shall calcul tax order,0.065796011,0.723970073,0.101816617,0,0.010366624,0
+12_15hlmnSRS4.0_uji12,system shall display tax inform order,0.102663088,0.606622119,0.120470232,0,0.014513077,0
+12_15hlmnSRS4.0_uji12,system shall display avail payment method payment,0.07525365,0.73368506,0.122942422,0,0.015114839,0
+12_15hlmnSRS4.0_uji12,system shall allow user select payment method order,0.125281123,0.628423732,0.151992596,0,0.023101749,0
+12_15hlmnSRS4.0_uji12,system shall display order elig chang,0.078516107,0.510534083,0.091539509,0,0.008379482,0
+12_15hlmnSRS4.0_uji12,system shall allow user select order chang,0.123530121,0.655938087,0.145708845,0,0.021231067,0
+12_15hlmnSRS4.0_uji12,system shall allow user cancel order,0.10185034,0.493606953,0.103038079,0,0.010616846,0
+12_15hlmnSRS4.0_uji12,system shall allow user chang ship payment method,0.102430811,0.628423732,0.131657493,0,0.017333696,0
+12_15hlmnSRS4.0_uji12,system shall notifi user chang made order,0.076163493,0.516528217,0.088518127,0,0.007835459,0
+12_15hlmnSRS4.0_uji12,system shall display review rate product select,0.079833807,0.611645719,0.083888609,0,0.007037299,0
+12_15hlmnSRS4.0_uji12,system shall enabl user enter review rate,0.068816698,0.611645719,0.096442998,0,0.009301252,0
+12_15hlmnSRS4.0_uji12,system shall display avail financ option,0.084187811,0.617395745,0.100708258,0,0.010142153,0
+12_15hlmnSRS4.0_uji12,system shall allow user select financ option,0.107732553,0.617395745,0.125903673,0,0.015851735,0
+12_15hlmnSRS4.0_uji12,system shall notifi use financ request,0.057559386,0.33148539,0.072450503,0,0.005249075,0
+12_15hlmnSRS4.0_uji12,system shall allow user view detail sitemap,0.075814827,0.356863723,0.079075748,0,0.006252974,0
+12_15hlmnSRS4.0_uji12,system shall display avail promot user,0.100393115,0.762837509,0.095732674,0,0.009164745,0
+12_15hlmnSRS4.0_uji12,system shall allow user select avail promot,0.105126043,0.762837509,0.121052854,0,0.014653793,0
+12_15hlmnSRS4.0_uji12,system shall allow user confirm purchas,0.086767247,0.367997411,0.087015666,0,0.007571726,0
+12_15hlmnSRS4.0_uji12,system shall enabl user enter payment inform,0.098076329,0.511762559,0.122212218,0,0.014935826,0
+12_15hlmnSRS4.0_uji12,system shall provid uniform look feel web page,0.042517536,0.230169826,0.040905446,0,0.001673255,0
+12_15hlmnSRS4.0_uji12,system shall provid digit imag product product catalog,0.056762627,0.223173893,0.056322606,0,0.003172236,0
+12_15hlmnSRS4.0_uji12,system shall provid use icon toolbar,0.054415745,0.25152663,0.0494333,0,0.002443651,0
+12_15hlmnSRS4.0_uji12,system shall provid handicap access,0.058801165,0.401388282,0.059736867,0,0.003568493,0
+12_15hlmnSRS4.0_uji12,system shall provid multi languag support,0.053827461,0.333439148,0.059255876,0,0.003511259,0
+12_15hlmnSRS4.0_uji12,system shall provid storag databas redund comput automat switchov,0.045650369,0.353762216,0.055174548,0,0.003044231,0
+12_15hlmnSRS4.0_uji12,system shall provid replic databas site storag locat,0.041109758,0.353762216,0.052038486,0,0.002708004,0
+12_15hlmnSRS4.0_uji12,system shall provid raid disk strip databas storag disk,0.032799402,0.289928346,0.043954245,0,0.001931976,0
+12_15hlmnSRS4.0_uji12,system shall provid contractu agreement internet servic provid access avail,0.06264981,0.774089228,0.094645152,0,0.008957705,0
+12_15hlmnSRS4.0_uji12,system shall provid contractu agreement internet servic provid provid avail network facil onto internet,0.052721265,0.774089228,0.089841971,0,0.00807158,0
+12_15hlmnSRS4.0_uji12,product shall base web run web server,0.037644951,0.333748995,0.060123625,0,0.00361485,0
+12_15hlmnSRS4.0_uji12,product shall take initi load time depend internet connect strength also depend media product run,0.029066947,0.332857208,0.052298785,0,0.002735163,0
+12_15hlmnSRS4.0_uji12,perform shall depend upon hardwar compon client custom,0.032106216,0.209158707,0.047951095,0,0.002299308,0
+12_15hlmnSRS4.0_uji12,system shall use secur socket transact includ confidenti custom inform,0.053077954,0.32286602,0.064423006,0,0.004150324,0
+12_15hlmnSRS4.0_uji12,system shall automat log custom period inact,0.037034216,0.199795067,0.03575719,0,0.001278577,0
+12_15hlmnSRS4.0_uji12,system shall confirm transact custom web browser,0.064265944,0.31023808,0.076120474,0,0.005794327,0
+12_15hlmnSRS4.0_uji12,system shall leav cooki custom comput contain user password,0.062288941,0.789479365,0.085106479,0,0.007243113,0
+12_15hlmnSRS4.0_uji12,system shall leav cooki custom comput contain user confidenti inform,0.068068486,0.789479365,0.091686396,0,0.008406395,0
+12_15hlmnSRS4.0_uji12,custom web browser shall never display custom password shall alway echo special charact repres type charact,0.04613037,0.365776513,0.0640939,0,0.004108028,0
+12_15hlmnSRS4.0_uji12,custom web browser shall never display custom credit card number retriev databas shall alway shown last digit credit card number,0.046235038,0.298245686,0.061868134,0,0.003827666,0
+12_15hlmnSRS4.0_uji12,system back end server shall never display custom password custom password may reset never shown,0.046802866,0.365776513,0.06787194,0,0.0046066,0
+12_15hlmnSRS4.0_uji12,system back end server shall access authent administr,0.037425415,0.405759437,0.057627064,0,0.003320879,0
+12_15hlmnSRS4.0_uji12,system back end databas shall encrypt,0.038140823,0.405759437,0.049433822,0,0.002443703,0
+12_15hlmnSRS4.0_uji12,sourc code develop system shall maintain configur manag tool,0.02990734,0.282488818,0.039868619,0,0.001589507,0
+12_15hlmnSRS4.0_uji12,system shall built use standard web page develop tool conform either ibm cua standard microsoft gui standard,0.025971213,0.357893523,0.043282689,0,0.001873391,0
+12_15hlmnSRS4.0_uji12,memori requir,0.005243123,0.2137171,0.031327363,0,0.000981404,1
+12_15hlmnSRS4.0_uji12,comput must equip web browser internet explor,0.023700046,0.303967982,0.059833397,0,0.003580035,1
+12_15hlmnSRS4.0_uji12,product must store way allow client easi access,0.040112378,0.18851003,0.048408558,0,0.002343388,1
+12_15hlmnSRS4.0_uji12,respons time load product take longer five minut,0.011670419,0.332857208,0.038834851,0,0.001508146,1
+12_15hlmnSRS4.0_uji12,gener knowledg basic comput skill requir use product,0.02498853,0.210465548,0.042335652,0,0.001792307,1
+12_15hlmnSRS4.0_uji12,product store line help system becom critic compon system shall provid,0.066326105,0.255041745,0.052744932,0,0.002782028,0
+12_15hlmnSRS4.0_uji12,shall provid specif guidelin user use store system within system,0.082392126,0.262341865,0.049370301,0,0.002437427,0
+12_15hlmnSRS4.0_uji12,implement onlin user help link search field shall provid,0.051145706,0.33967878,0.061133444,0,0.003737298,0
+12_15hlmnSRS4.0_uji12,mani type interfac support store softwar system name user interfac softwar interfac hardwar interfac,0.034527424,0.355588115,0.055370242,0,0.003065864,1
+12_15hlmnSRS4.0_uji12,protocol use shall http,0.031749385,0.607363153,0.067158713,0,0.004510293,1
+12_15hlmnSRS4.0_uji12,port number use,0.017957953,0.252044695,0.051968797,0,0.002700756,1
+12_15hlmnSRS4.0_uji12,shall logic address system ipv format,0.024293015,0.046236692,0.01039236,0,0.000108001,1
+12_15hlmnSRS4.0_uji12,user interfac softwar shall compat browser internet explor mozilla netscap navig user access system,0.059166828,0.355588115,0.061262097,0,0.003753045,1
+12_15hlmnSRS4.0_uji12,user interfac shall implement use tool softwar packag like java applet ms front page ejb etc,0.030601413,0.282529952,0.043123796,0,0.001859662,1
+12_15hlmnSRS4.0_uji12,sinc applic must run internet hardwar shall requir connect internet hardwar interfac system modem wan lan ethernet cross cabl,0.028764016,0.243583616,0.043234116,0,0.001869189,1
+12_15hlmnSRS4.0_uji12,store system shall commun configur identifi avail compon configur product,0.054495196,0.282488818,0.062271999,0,0.003877802,0
+12_15hlmnSRS4.0_uji12,store shall commun content manag get product specif offer promot,0.041419857,0.33715021,0.064563875,0,0.004168494,0
+12_15hlmnSRS4.0_uji12,store system shall commun billpay system identifi avail payment method valid payment process payment,0.06375608,0.73368506,0.112695716,0,0.012700324,0
+12_15hlmnSRS4.0_uji12,store system shall commun credit manag system handl financ option,0.06945213,0.450299555,0.084941472,0,0.007215054,0
+12_15hlmnSRS4.0_uji12,store system shall commun crm system provid support,0.089623733,0.354623873,0.08052119,0,0.006483662,0
+12_15hlmnSRS4.0_uji12,store system shall commun sale system order manag,0.084472868,0.450299555,0.084929985,0,0.007213102,0
+12_15hlmnSRS4.0_uji12,store system shall commun ship system track order updat ship method,0.084991031,0.451214314,0.102054013,0,0.010415022,0
+12_15hlmnSRS4.0_uji12,store system shall commun extern tax system calcul tax,0.056359195,0.723970073,0.091180639,0,0.008313909,0
+12_15hlmnSRS4.0_uji12,store system shall commun export regul system valid export regul,0.036162525,0.196393221,0.038117793,0,0.001452966,0
+12_15hlmnSRS4.0_uji12,system shall verisign like softwar shall allow user complet secur transact usual shall third parti softwar system wide use internet transact,0.064861324,0.320807767,0.051358894,0,0.002637736,0
+12_15hlmnSRS4.0_uji12,store system shall use http protocol commun internet intranet commun tcp ip protocol suit,0.043977274,0.607363153,0.073241009,0,0.005364245,1
+12_15hlmnSRS4.0_uji12,store display disclaim copyright word mark trademark product warranti marvel electron home entertain,0.021941118,0.108887321,0.029142085,0,0.000849261,0
+12_15hlmnSRS4.0_uji12,shall per industri standard,0.016655078,0.357893523,0.03383278,0,0.001144657,1
+4.argos_urd-uji4,archiv administr creat new client space,0.082641268,0.498005532,0.137136527,0,0.018806427,0
+4.argos_urd-uji4,client administr manag role client,0.141781078,0.628747662,0.15161279,0.020113823,0.022986438,0
+4.argos_urd-uji4,archiv administr cannot access document,0.092318406,0.452129517,0.122632816,0,0.015038807,0
+4.argos_urd-uji4,client administr view role,0.147058405,0.628747662,0.140669084,0.026059906,0.019787791,0
+4.argos_urd-uji4,client administr read content document,0.090101438,0.435542904,0.122246816,0,0.014944284,0
+4.argos_urd-uji4,client administr cannot delet,0.10965188,0.530291169,0.175125769,0,0.030669035,0
+4.argos_urd-uji4,end user multipl role time,0.088833471,0.499417832,0.110320569,0,0.012170628,0
+4.argos_urd-uji4,end user person role,0.138704903,0.531069114,0.143451623,0,0.020578368,0
+4.argos_urd-uji4,authent end user client server access phrase urcar urcar document space,0.087788529,0.840795905,0.142361252,0,0.020266726,0
+4.argos_urd-uji4,end user cannot access phrase urcar urcar document space client,0.105279461,0.840795905,0.150797527,0,0.022739894,0
+4.argos_urd-uji4,end user view assign right assign role,0.158021953,0.528778777,0.148979741,0,0.022194963,0
+4.argos_urd-uji4,role manag one role,0.147947372,0.457083679,0.116084988,0,0.013475724,0
+4.argos_urd-uji4,role inherit static right role manag,0.143784252,0.402810536,0.109948533,0,0.01208868,0
+4.argos_urd-uji4,role set possibl empti person role assign,0.13376074,0.552812033,0.119020416,0,0.01416586,0
+4.argos_urd-uji4,role own set document sda,0.130710322,0.575630244,0.13314898,0,0.017728651,0
+4.argos_urd-uji4,role set right assign,0.168828119,0.609510462,0.167529177,0,0.028066025,0
+4.argos_urd-uji4,archiv administr limit avail client space,0.072792284,0.498005532,0.129979173,0,0.016894585,0
+4.argos_urd-uji4,role delet exist document own role,0.176191306,0.483616205,0.127104303,0,0.016155504,0
+4.argos_urd-uji4,end user predefin period time deleg role anoth person role,0.129659575,0.531069114,0.115638407,0,0.013372241,0
+4.argos_urd-uji4,role log assign right expir right log,0.125257136,0.651064383,0.143472433,0,0.020584339,0
+4.argos_urd-uji4,role log deleg expir deleg log,0.052975833,0.651064383,0.107165374,0,0.011484417,0
+4.argos_urd-uji4,role right assign role right subordin role,0.280582826,0.739537262,0.231277794,0,0.053489418,0
+4.argos_urd-uji4,role right remov role right subordin role,0.2334888,0.739537262,0.199900566,0,0.039960236,0
+4.argos_urd-uji4,role right creat subordin role,0.210327127,0.641155261,0.179747187,0,0.032309051,0
+4.argos_urd-uji4,role right read view role,0.179997781,0.475973977,0.12958289,0,0.016791725,0
+4.argos_urd-uji4,role right updat subordin role,0.215489934,0.693424886,0.198173995,0,0.039272932,0
+4.argos_urd-uji4,role right delet subordin role,0.252044033,0.699264325,0.215240863,0,0.046328629,0
+4.argos_urd-uji4,role cannot delet manag subordin role,0.194701134,0.664721202,0.162744799,0,0.02648587,0
+4.argos_urd-uji4,role right coupl person role subordin role,0.227209023,0.652442405,0.182735473,0,0.033392253,0
+4.argos_urd-uji4,role right decoupl person role subordin role,0.227209023,0.652442405,0.182735473,0,0.033392253,0
+4.argos_urd-uji4,role right assign document right document own anoth role,0.24778561,0.818006697,0.177158037,0,0.03138497,0
+4.argos_urd-uji4,role right take document right document own anoth role,0.212830631,0.818006697,0.159779396,0,0.025529455,0
+4.argos_urd-uji4,role upload file document space associ role,0.160498886,0.685406585,0.138664555,0,0.019227859,0
+4.argos_urd-uji4,role download file document space associ role,0.160498886,0.685406585,0.138664555,0,0.019227859,0
+4.argos_urd-uji4,role updat right updat file document space associ role,0.165832224,0.693424886,0.149346696,0,0.022304436,0
+4.argos_urd-uji4,role delet right delet file document space associ role,0.205387874,0.627842568,0.161378805,0.030966571,0.026043119,0
+4.argos_urd-uji4,document sda own exactli one role,0.105582779,0.575630244,0.12136151,0,0.014728616,0
+4.argos_urd-uji4,role own document hand ownership anoth role,0.13874362,0.516639519,0.114542544,0,0.013119994,0
+4.argos_urd-uji4,role chat person role,0.142385718,0.438522774,0.114278518,0,0.01305958,1
+13_T1-Req-uji13,requir besid iphon twitter account internet acc,0.022355326,0.173891105,0.037976474,0,0.001442213,1
+13_T1-Req-uji13,twitter client use sever differ data object oper,0.06555133,0.357362145,0.091964303,0,0.008457433,1
+13_T1-Req-uji13,data object use insid applic main drive forc client,0.049331633,0.503395951,0.090060883,0,0.008110963,1
+13_T1-Req-uji13,provid inform user want see base input,0.026206587,0.29454276,0.045212702,0,0.002044188,0
+13_T1-Req-uji13,user main data object client system,0.088699438,0.503395951,0.112603855,0,0.012679628,0
+13_T1-Req-uji13,user log client suppli usernam password,0.053176246,0.355118198,0.067784282,0,0.004594709,0
+13_T1-Req-uji13,user alreadi twitter account creat one order log client,0.05897144,0.288663424,0.064407684,0,0.00414835,0
+13_T1-Req-uji13,log user abl use search box anyth may want search enter new tweet account,0.080271205,0.522616447,0.092395502,0,0.008536929,0
+13_T1-Req-uji13,user also abl select follow whether allow someon follow,0.043332532,0.571272643,0.085249401,0,0.00726746,0
+13_T1-Req-uji13,user twitter page import data object regard client,0.092118487,0.535299025,0.104657222,0,0.010953134,1
+13_T1-Req-uji13,user tweet display also list follow follow,0.062812484,0.571272643,0.09539624,0,0.009100443,0
+13_T1-Req-uji13,user enter new tweet someon tag name tweet page chang,0.081270278,0.465686315,0.102140358,0,0.010432653,0
+13_T1-Req-uji13,new page must updat everi time chang occur,0.023309281,0.258920341,0.048860905,0,0.002387388,0
+13_T1-Req-uji13,tweet anoth data object,0.059956923,0.408407356,0.097732818,0,0.009551704,1
+13_T1-Req-uji13,tweet input user client,0.089684454,0.299909715,0.081539529,0,0.006648695,0
+13_T1-Req-uji13,tweet sort text long maximum number charact allow per tweet,0.031888345,0.189985622,0.056392525,0,0.003180117,0
+13_T1-Req-uji13,newli enter tweet appear user twitter page upon submiss,0.068215983,0.309410419,0.073600682,0,0.00541706,0
+13_T1-Req-uji13,page twitter also data object,0.088970025,0.535299025,0.121318379,0,0.014718149,1
+13_T1-Req-uji13,user abl access page either search click link page page,0.056633309,0.43954109,0.093246699,0,0.008694947,0
+13_T1-Req-uji13,client would appeal user page could access abil access page essenti,0.048297676,0.43954109,0.073935785,0,0.0054665,0
+13_T1-Req-uji13,trend topic page use user keep date popular,0.053042072,0.375294814,0.070683491,0,0.004996156,0
+13_T1-Req-uji13,user enter tweet seen anyon follow,0.059072566,0.428074076,0.090803343,0,0.008245247,0
+13_T1-Req-uji13,user tag tweet immedi viewabl user,0.06749885,0.477024507,0.091589012,0,0.008388547,0
+13_T1-Req-uji13,user abil search twitter page use search box,0.081052475,0.522616447,0.115782092,0,0.013405493,0
+13_T1-Req-uji13,twitter client store data one locat,0.058652583,0.288663424,0.080500585,0,0.006480344,0
+13_T1-Req-uji13,data store user usernam password increas eas access,0.045672225,0.355118198,0.067588663,0,0.004568227,0
+13_T1-Req-uji13,tweet user enter tweet user tag handl twitter api work,0.099419047,0.465686315,0.111369743,0,0.01240322,0
+13_T1-Req-uji13,search user submit need save,0.040765976,0.291641535,0.069059911,0,0.004769271,0
+13_T1-Req-uji13,user enter credenti proper field user log twitter system,0.078593008,0.40554817,0.085513604,0,0.007312577,0
+13_T1-Req-uji13,user given option rememb credenti input startup necessari,0.035594111,0.304973226,0.063966672,0,0.004091735,0
+13_T1-Req-uji13,user click logout person data remov program data wipe,0.040215882,0.190460273,0.055140604,0,0.003040486,0
+13_T1-Req-uji13,user password remov user forc enter credenti next startup,0.054851988,0.304973226,0.067738553,0,0.004588512,0
+13_T1-Req-uji13,user success log twitter system user twitter feed display screen,0.08809479,0.368218947,0.08759183,0,0.007672329,0
+13_T1-Req-uji13,number previou data display preset user prefer pane,0.044602633,0.286808052,0.048780638,0,0.002379551,0
+13_T1-Req-uji13,new view display show composit window variou rich text multimedia option,0.03854441,0.255617211,0.057329356,0,0.003286655,0
+13_T1-Req-uji13,user enter tweet submit twitter system,0.105413541,0.433181617,0.110293234,0,0.012164597,0
+13_T1-Req-uji13,tweet immedi display user feed,0.069619294,0.477024507,0.090880768,0,0.008259314,0
+13_T1-Req-uji13,composit window user prompt imag picker allow user insert imag user devic,0.062843289,0.363340482,0.070716275,0,0.005000792,0
+13_T1-Req-uji13,composit window camera display shown imag taken user given option keep take,0.060671386,0.485493877,0.091855742,0,0.008437477,0
+13_T1-Req-uji13,user keep photo use composit window user select take photo delet camera display shown,0.063278023,0.485493877,0.076946297,0,0.005920733,0
+13_T1-Req-uji13,user prompt insert exist voic memo take new voic memo,0.057685646,0.676229599,0.129805201,0,0.01684939,0
+13_T1-Req-uji13,user prompt clip picker user may select pre exist clip devic,0.039693988,0.301272655,0.052887718,0,0.002797111,0
+13_T1-Req-uji13,user shown voic memo window may record new voic memo,0.068874088,0.769638092,0.146905581,0,0.02158125,0
+13_T1-Req-uji13,user option hear voic memo submit,0.054944801,0.471997106,0.104996218,0,0.011024206,0
+13_T1-Req-uji13,listen user may select keep record,0.041556809,0.262263371,0.061651595,0,0.003800919,0
+13_T1-Req-uji13,user decid keep memo memo insert composit window,0.062325293,0.615422335,0.119963015,0,0.014391125,0
+13_T1-Req-uji13,user decid record memo remov user shown voic memo window,0.07585746,0.769638092,0.141862693,0,0.020125024,0
+13_T1-Req-uji13,function display mention user handl usernam twitter system,0.074232983,0.309573908,0.075678208,0,0.005727191,0
+13_T1-Req-uji13,function display search window user search specif word tweet,0.081781936,0.419209767,0.092516738,0,0.008559347,0
+13_T1-Req-uji13,window also offer abil search user twitter,0.075614835,0.505916935,0.087270264,0,0.007616099,0
+13_T1-Req-uji13,window display user direct messag dm inbox,0.042102535,0.297911196,0.053997657,0,0.002915747,0
+13_T1-Req-uji13,function also allow user compos new messag delet current messag read exist messag greater detail,0.034035536,0.297911196,0.04859708,0,0.002361676,0
+13_T1-Req-uji13,function display topic current trend twitter,0.052002667,0.375294814,0.072820942,0,0.00530289,0
+13_T1-Req-uji13,order topic determin item rise popular given timelin,0.011923155,0.261254944,0.043743441,0,0.001913489,0
+13_T1-Req-uji13,function display prefer view contain variou set user may chang base prefer,0.044435723,0.286808052,0.061485596,0,0.003780478,0
+13_T1-Req-uji13,twitter client run nativ io devic includ ipod touch ipad,0.03722649,0.400840931,0.068779776,0,0.004730658,0
+13_T1-Req-uji13,client design specif iphon ipod touch retain function ipad,0.033152033,0.400840931,0.06485699,0,0.004206429,0
+13_T1-Req-uji13,twitter client reli heavili twitter api retriev user data,0.073223071,0.267086266,0.076038369,0,0.005781834,0
+13_T1-Req-uji13,client must work close twitter system authent deliv content,0.042420495,0.189526234,0.057641487,0,0.003322541,1
+13_T1-Req-uji13,client design work latest api avail compat guarante io devic run latest version io,0.022300244,0.323728852,0.051011925,0,0.002602216,1
+13_T1-Req-uji13,client util common design theme throughout entir system,0.029404026,0.24349373,0.052089701,0,0.002713337,0
+13_T1-Req-uji13,applic contain multipl view serv primari function,0.014696471,0.268144944,0.044498519,0,0.001980118,0
+13_T1-Req-uji13,interfac differ content maintain similar design theme,0.014030708,0.24349373,0.046644196,0,0.002175681,0
+13_T1-Req-uji13,interfac util fluid robust interfac easi understand requir tutori first use although one provid,0.015137318,0.181513681,0.035193633,0,0.001238592,0
+15_bpms-uji15,item bought variou vendor locat outsid unit state,0.047832999,0.272643183,0.099716952,0,0.009943471,0
+15_bpms-uji15,buyer get contact variou vendor creat catalog list item store manag everi store buy item store,0.12137241,0.300935866,0.107000345,0,0.011449074,0
+15_bpms-uji15,onlin system give advantag keep track purchas order given point time thu elimin paper work turn error caus,0.016380819,0.0853458,0.026486022,0,0.000701509,0
+15_bpms-uji15,user similar right,0.030391868,0.486269884,0.117707198,0,0.013854984,1
+15_bpms-uji15,total access bpm system,0.098254806,0.429979405,0.143032334,0,0.020458249,0
+15_bpms-uji15,right gener new user system,0.054109428,0.486269884,0.117866767,0,0.013892575,0
+15_bpms-uji15,total access inform system peopl manag team organ,0.080111466,0.429979405,0.113059301,0,0.012782405,0
+15_bpms-uji15,district manag may store,0.075647695,0.387071343,0.103770062,0,0.010768226,0
+15_bpms-uji15,log see store list store toggl,0.085462908,0.32501152,0.111344243,0,0.01239754,0
+15_bpms-uji15,manageri type access store,0.082474161,0.246618201,0.083308462,0,0.0069403,0
+15_bpms-uji15,store manag assist store manag limit access bpm,0.141719978,0.387071343,0.141235526,0,0.019947474,1
+15_bpms-uji15,abl see detail restrict store,0.076852526,0.32501152,0.100822736,0,0.010165224,0
+15_bpms-uji15,cost item bought disclos,0.036325021,0.272643183,0.079402186,0,0.006304707,0
+15_bpms-uji15,comparison vendor item shown,0.040658642,0.246360012,0.086455996,0,0.007474639,0
+15_bpms-uji15,enter detail sale store regist,0.063643695,0.283036466,0.079071899,0,0.006252365,0
+15_bpms-uji15,usag system restrict add cash regist chang password,0.044216054,0.156445909,0.058196063,0,0.003386782,0
+15_bpms-uji15,store limit internet access usag bpm system onlin rest internet access,0.1059398,0.390142141,0.11708946,0,0.013709942,0
+2_SRS_sample V1.2,system administr must abl deactiv reactiv student account login,0.106461303,0.500957361,0.129701418,0.014749982,0.016822458,0
+2_SRS_sample V1.2,system administr must abl forc send new password student via email,0.113683697,0.441378647,0.121451356,0.012995771,0.014750432,0
+2_SRS_sample V1.2,system administr must abl chang student detail,0.187815796,0.500957361,0.136969179,0.026267624,0.018760556,0
+2_SRS_sample V1.2,student regist system fill detail forward choos project supervisor,0.07015771,0.196376703,0.056714167,0,0.003216497,0
+2_SRS_sample V1.2,student chang detail inform incorrect telephon number,0.105304897,0.551446651,0.136146464,0,0.01853586,0
+2_SRS_sample V1.2,student chang login password time secur reason,0.085962033,0.227972976,0.066140871,0,0.004374615,0
+2_SRS_sample V1.2,student request password forgotten password,0.078059501,0.298780639,0.096677373,0,0.009346515,0
+2_SRS_sample V1.2,staff view detail student,0.121592093,0.288703738,0.089151923,0.030257863,0.007948065,0
+2_SRS_sample V1.2,certain staff may design unit cohort co ordin chang detail student unit project cohort,0.175218592,0.566626144,0.169696801,0.012995771,0.028797004,0
+2_SRS_sample V1.2,unit cohort co ordin chang student detail incorrect inform,0.206841753,0.566626144,0.211926059,0,0.044912654,0
+2_SRS_sample V1.2,unit cohort co ordin view student inform monitor progress,0.143502794,0.535283768,0.175120813,0,0.030667299,0
+2_SRS_sample V1.2,unit cohort co ordin list student differ period differ group,0.192232503,0.777651837,0.246975315,0,0.060996806,0
+2_SRS_sample V1.2,unit cohort co ordin reset student password requir,0.189347126,0.639121771,0.204647859,0,0.041880746,0
+2_SRS_sample V1.2,system administr list student differ period differ group check error,0.14579757,0.775344459,0.225233555,0.013324844,0.050730154,0
+2_SRS_sample V1.2,system administr reset student password requir,0.15890142,0.639121771,0.15544102,0.021378811,0.024161911,0
+2_SRS_sample V1.2,administr staff list student differ period differ group,0.159992604,0.777651837,0.239775123,0.018587017,0.05749211,0
+2_SRS_sample V1.2,administr staff make school announc,0.053268453,0.196561655,0.06423092,0,0.004125611,1
+14_yh-rr-ss-jw1-uji14,meet initi shall initi meet decid meet topic select list potenti meet particip select date rang durat locat meet,0.254930051,0.60237453,0.110416217,0.090338127,0.012191741,0
+14_yh-rr-ss-jw1-uji14,meet initi potenti meet particip shall provid abil person may deleg abil initi accept declin meet anoth system user,0.171968785,0.322637538,0.071982137,0.030718472,0.005181428,0
+14_yh-rr-ss-jw1-uji14,meet initi shall one potenti meet particip default may opt remov potenti meet particip,0.212098256,0.419852805,0.092606343,0.04147879,0.008575935,0
+14_yh-rr-ss-jw1-uji14,meet initi shall confirm meet system shall chang time slot accept meet particip temporari reserv schedul meet potenti meet particip respond meet propos,0.332267,0.51171032,0.088531276,0.119018737,0.007837787,0
+14_yh-rr-ss-jw1-uji14,meet initi shall cancel meet system shall chang time slot temporarili reserv freed meet cancel,0.233163822,0.544144071,0.118463399,0.044644702,0.014033577,0
+14_yh-rr-ss-jw1-uji14,meet initi shall reschedul meet system reschedul meet releas temporari reserv select differ data rang durat locat start process,0.163118594,0.427390055,0.097458773,0.034286615,0.009498212,0
+14_yh-rr-ss-jw1-uji14,meet initi may send meet propos virtual meet avail time slot date rang durat accept locat meet avail,0.242504733,0.627355515,0.129846874,0.056866008,0.016860211,0
+14_yh-rr-ss-jw1-uji14,meet initi may cancel meet reschedul meet time prior start meet,0.231580826,0.427390055,0.087884097,0,0.007723614,0
+14_yh-rr-ss-jw1-uji14,meet schedul may option automat propos anoth meet current meet cancel import particip,0.233331016,0.984418477,0.156616066,0,0.024528592,0
+14_yh-rr-ss-jw1-uji14,meet schedul may provid meet initi summari scan potenti meet particip show avail time slot schedul conflict mean inform meet initi overal result system,0.26777637,0.992637745,0.165363836,0,0.027345198,0
+14_yh-rr-ss-jw1-uji14,meet initi may design one potenti meet particip import mean attend meet requir order meet,0.223441657,0.419852805,0.082830618,0.069205203,0.006860911,0
+14_yh-rr-ss-jw1-uji14,meet propos may includ agenda list topic discuss meet may includ list requir equip,0.150189093,0.710033261,0.14188657,0.027000969,0.020131799,0
+14_yh-rr-ss-jw1-uji14,meet schedul scan list potenti meet particip determin time slot requir durat exist among potenti meet particip meet propos enter system,0.258576982,0.46639778,0.099577806,0.069370705,0.009915739,0
+14_yh-rr-ss-jw1-uji14,meet schedul inform meet initi time slot exist potenti meet particip may option suggest altern date rang durat locat avail,0.257054347,0.561313455,0.130521361,0.083917634,0.017035826,0
+14_yh-rr-ss-jw1-uji14,meet schedul temporarili reserv time slot propos meet inform potenti meet particip meet request input attend attend time slot exist,0.228241481,0.618114078,0.128203269,0,0.016436078,0
+14_yh-rr-ss-jw1-uji14,potenti meet particip deleg may accept refus meet accept potenti meet particip becom confirm meet particip refus potenti meet particip may provid reason refus,0.184610833,0.395881812,0.098115159,0,0.009626585,0
+14_yh-rr-ss-jw1-uji14,confirm meet particip may request special equip,0.123572273,0.355094004,0.068531425,0.025345676,0.004696556,0
+14_yh-rr-ss-jw1-uji14,potenti meet particip confirm meet particip may confirm cancel attend meet subject administr rule practic particip,0.180643049,0.368934354,0.097508589,0,0.009507925,0
+14_yh-rr-ss-jw1-uji14,physic chang locat requir equip shall kept date,0.086201573,0.600917901,0.115514665,0,0.013343638,0
+14_yh-rr-ss-jw1-uji14,physic chang locat requir equip shall occur meet propos meet date meet initi shall notifi promptli,0.195482796,0.600917901,0.099521614,0.07175095,0.009904552,0
+14_yh-rr-ss-jw1-uji14,meet schedul system shall abl schedul meet meet topic date rang durat locat list particip,0.275873847,0.60237453,0.110329544,0.089167121,0.012172608,0
+14_yh-rr-ss-jw1-uji14,meet schedul system shall monitor meet sinc meet held virtual meet,0.203994535,0.375002944,0.070919744,0.046307042,0.00502961,0
+14_yh-rr-ss-jw1-uji14,meet schedul system shall abl select particip import particip,0.217552192,0.453157658,0.107893831,0.027000969,0.011641079,0
+14_yh-rr-ss-jw1-uji14,meet schedul system shall cancel meet due cancel import particip,0.21281262,0.516294162,0.118453695,0.045155697,0.014031278,0
+14_yh-rr-ss-jw1-uji14,meet schedul system shall reschedul meet support conflict resolut,0.162051423,0.305218502,0.073027213,0.038835293,0.005332974,0
+14_yh-rr-ss-jw1-uji14,meet schedul shall access web,0.110098208,0.211700614,0.048389524,0.025345676,0.002341546,1
+14_yh-rr-ss-jw1-uji14,meet schedul system may option automat propos anoth meet current meet cancel import particip,0.247620422,0.984418477,0.157981967,0,0.024958302,0
+14_yh-rr-ss-jw1-uji14,meet schedul system may provid meet initi summari scan potenti meet particip show avail time slot schedul conflict mean inform meet initi overal result system,0.273797858,0.992637745,0.165393945,0,0.027355157,0
+14_yh-rr-ss-jw1-uji14,meet schedul system may abl includ agenda meet propos,0.216224902,0.67595685,0.131709045,0,0.017347273,0
+14_yh-rr-ss-jw1-uji14,meet schedul system may suggest virtual meet avail time slot locat avail feasibl meet,0.2130995,0.627355515,0.123666635,0.068453078,0.015293437,0
+14_yh-rr-ss-jw1-uji14,meet schedul system may abl includ list requir equip meet propos,0.235297324,0.710033261,0.142331447,0.088988165,0.020258241,0
+14_yh-rr-ss-jw1-uji14,meet schedul system temporarili reserv time slot propos meet,0.234751777,0.618114078,0.137846282,0,0.019001597,0
+14_yh-rr-ss-jw1-uji14,meet schedul system inform potenti meet particip meet,0.312355692,0.524232075,0.119257241,0,0.01422229,0
